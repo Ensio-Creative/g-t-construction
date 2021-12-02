@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <h2>welcome</h2>
+  <router-view />
 </template>
 
 <style lang="scss">
