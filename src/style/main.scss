@@ -1,4 +1,5 @@
 $white: #fff;
+$yellow: #FFDD00;
 
 @font-face {
 	font-family: 'Gilroy';
@@ -18,4 +19,50 @@ $raleFont: 'raleway';
 body {
 	background-color: $white;
 	font-family: $gilroyFont;
+}
+
+// Desktop nav
+nav {
+  position: fixed;
+  width: 100%;
+  height: 81px;
+  padding-top: 10px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  transition: all .2s ease-in-out;
+  &.onScroll {
+    box-shadow: 0 0 10px #aaa;
+    background-color: #fff;
+    z-index: 1000;
+    ul li {
+      a {
+        color: $raleFont;
+        
+        &.router-link-exact-active {
+          color: $yellow;
+        }
+      }
+    }
+  }
+  &.navigate {
+    .container {
+      display: flex;
+      justify-content: space-between;
+      img {
+        width: 200px;
+      }
+      ul {
+        display: flex;
+        list-style: none;
+        li {
+          a {
+            &.router-link-exact-active {
+              color: $yellow;
+            }
+          }
+        }
+      }
+    }
+  }
 }
