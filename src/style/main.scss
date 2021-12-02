@@ -1,4 +1,21 @@
 $white: #fff;
+
+@font-face {
+	font-family: 'Gilroy';
+	src: local('Gilroy'),
+		url('../assets/fonts/Gilroy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'raleway';
+	src: local('raleway'),
+		url('../assets/fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+$gilroyFont: 'Gilroy';
+$raleFont: 'raleway';
+
 body {
 	background-color: $white;
+	font-family: $gilroyFont;
 }
