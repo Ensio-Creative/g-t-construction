@@ -1,0 +1,71 @@
+
+.who-we-are{
+  margin-bottom: 80px;
+  margin-top: 80px;
+  .item:first-child {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    background-color: $yellow;
+    .content {
+      h2 {
+        font-size: 27px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 24px;
+      }
+    }
+  }
+  .item:last-child {
+    background-image: url('/img/civil-engineers-looking-at-blueprints-473683922-5c14287446e0fb00014ad74b 1.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.images-view {
+  margin-bottom: 80px;
+  .img-view-1 {
+    height: 800px;
+    background-image: url('/img/Pexels Photo by Maroš Markovič.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .img-view-2 {
+    height: 400px;
+    background-image: url('/img/Pexels Photo by Expect Best.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .img-view-3 {
+    height: 400px;
+    background-image: url('/img/josh-olalde-X1P1_EDNnok-unsplash 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1000px) {
+  .who-we-are{
+    .item:first-child {
+      background-color: $yellow;
+      .content {
+        width: 441px;
+        margin: auto;
+      }
+    }
+  }
+  .images-view {
+    .img-view-2 {
+      position: relative;
+      top: -40px;
+    }
+  }
+}
