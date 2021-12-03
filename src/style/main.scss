@@ -1,6 +1,8 @@
 $white: #fff;
 $yellow: #FFDD00;
 $dark: #000;
+$gray: #F1F2F2;
+
 
 @font-face {
 	font-family: 'Gilroy';
@@ -27,6 +29,28 @@ a {
   &:hover {
     text-decoration: none;
   }
+}
+.btn-yellow {
+  font-family: $raleFont;
+  background-color: $yellow;
+  border: 0px;
+  padding: 10px 30px 10px 25px;
+  margin-bottom: 30px;
+  img {
+    width: 15px;
+  }
+  &:hover {
+    img {
+      margin-left: 5px;
+      transition: 1s;
+    }
+  }
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: $raleFont;
 }
 
 // Desktop nav
@@ -299,3 +323,4 @@ body {
 }
 
 @import 'components/home';
+@import 'components/footer';

@@ -1,7 +1,169 @@
 .bg-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/public/img/Pexels\ Photo\ by\ Adrien\ Olichon.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/Pexels\ Photo\ by\ Adrien\ Olichon.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 700px;
+  background-position: bottom;
+  height: 100vh;
+  color: $white;
+
+  .container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    h2 {
+      font-weight: 800;
+      font-size: 40px;
+      padding-bottom: 10px;
+    }
+    .first-hero-text {
+      font-size: 22px;
+      font-weight: 300;
+    }
+  }
+}
+
+.yellow-bg {
+  background-color: $yellow;
+  height: 650px;
+  font-size: 26px;
+  text-align: center;
+  .container{
+    display: flex;
+    align-items: center;
+    height: 650px;
+  }
+}
+
+.home-about-us {
+  height: 650px;
+  .about-item:first-child {
+    background-color: $gray;
+    display: flex;
+    align-items: center;
+    height: 650px;
+    .content {
+      h2 {
+        font-weight: 800;
+        font-size: 40px;
+        padding-bottom: 10px;
+      }
+      p{
+        font-size: 20px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .about-item:last-child {
+    height: 350px;
+    background-image: url('/img/pexels-burst-544966\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.home-our-services {
+  background-color: $white;
+  margin-top: 430px;
+  margin-bottom: 50px;
+  .container {
+    height: 600px;
+    .content{
+      h2 {
+        font-weight: 800;
+        font-size: 40px;
+        padding-bottom: 10px;
+      }
+      .text {
+        width: 334px;
+      }
+      .new-bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/Pexels\ Photo\ by\ Max\ Vakhtbovych.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        color: $white;
+        font-size: 27px;
+        font-weight: bold;
+        padding-left: 30px;
+        display: flex;
+        align-items: end;
+      }
+      .expansion-bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/Pexels\ Photo\ by\ Cal\ David.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        color: $white;
+        font-size: 27px;
+        font-weight: bold;
+        padding-left: 30px;
+        display: flex;
+        align-items: end;
+      }
+      .refurbishment-bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/pexels-tima-miroshnichenko-6474343\ 2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        color: $white;
+        font-size: 27px;
+        font-weight: bold;
+        padding-left: 30px;
+        display: flex;
+        align-items: end;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .bg-hero {
+    .container {
+      h2 {
+        width: 438px;
+      }
+      .first-hero-text {
+        width: 582px;
+      }
+    }
+  }
+
+  .yellow-bg {
+    height: 500px;
+    .container{
+      height: 500px;
+      .content {
+        margin: auto;
+        p {
+          font-weight: 300;
+          width: 846px;
+        }
+      }
+    }
+  }
+
+  .home-about-us {
+    height: 500px;
+    .about-item:first-child {
+      height: 500px;
+      .content {
+        width: 386px;
+        margin: auto;
+      }
+    }
+    .about-item:last-child {
+      height: 500px;
+    }
+  }
+  .home-our-services{
+    margin-top: 80px;
+    margin-bottom: 70;
+  }
 }
