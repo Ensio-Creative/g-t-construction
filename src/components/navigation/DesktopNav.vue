@@ -1,8 +1,7 @@
 <template>
   <div id="nav">
     <nav
-      class="navigate"
-      :class="{ 'onScroll': !view.topOfPage}"
+      :class="[view.topOfPage ? 'navigate' : 'onScroll']"
     >
       <div class="container mt-3">
         <div class="nav-brand">
@@ -12,7 +11,7 @@
             >
             <img
               v-else
-              src="/img/logo-white.png" alt=""
+              src="/img/g-&-t-logo 1.svg" alt=""
             >
         </div>
         <ul class="nav-container">
@@ -30,7 +29,7 @@
 </template>
 
 <script>
-import routes from '../../data/baseNav'
+import routes from '../../data/baseNav.js'
 export default {
   name: 'App',
   data () {
