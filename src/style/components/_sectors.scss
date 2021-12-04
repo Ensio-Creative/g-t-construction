@@ -1,0 +1,56 @@
+.sector-card {
+  background-color: $white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  .sector-content {
+    background-color: $gray;
+    padding: 20px;
+    height: 618px;
+    margin-bottom: 30px;
+    h2 {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .img-1{
+      background: url('/img/pexels-curtis-adams-5178034 1.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      margin-bottom: 10px;
+    }
+    .img-2{
+      background: url('/img/8B2A3D4794604D769DDA612DBFF6E053 (1) 1.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      margin-bottom: 10px;
+    }
+    .img-3{
+      background: url('/img/Pexels Photo by Pixabay.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      margin-bottom: 10px;
+    }
+    .img-4{
+      background: url('/img/pexels-erik-mclean-5864155 1.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      margin-bottom: 10px;
+    }
+    .img-5{
+      background: url('/img/B7425DA490E64B13B3332F0120D45709 1.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 250px;
+      margin-bottom: 10px;
+    }
+  }
+}

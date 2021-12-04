@@ -1,0 +1,118 @@
+.side-msg {
+  display: flex;
+  justify-content: end;
+  .side-message {
+    background-color: $yellow;
+    padding: 20px;
+  }
+}
+
+.services-our-services {
+  background-color: $white;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  .container {
+    height: 600px;
+    .learn-btn {
+      background-color: transparent;
+      border: 0px;
+      color: $white;
+      font-size: 20px;
+      border-bottom: 1px solid $white;
+      margin-bottom: 10px;
+    }
+    .read-more {
+      background-color: $white;
+      position: relative;
+      left: -15px;
+      p{
+        font-size: 17px;
+        color: $dark;
+        padding: 10px;
+      }
+      .thumbnail {
+        background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/Pexels\ Photo\ by\ Max\ Vakhtbovych.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 80px;
+      }
+    }
+    .content{
+      h2 {
+        font-weight: 800;
+        font-size: 40px;
+        padding-bottom: 10px;
+      }
+      img {
+        width: 42px;
+        position: relative;
+        top: -25px;
+      }
+      .text {
+        width: 334px;
+      }
+      .new-bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/Pexels\ Photo\ by\ Max\ Vakhtbovych.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        color: $white;
+        font-size: 27px;
+        font-weight: bold;
+        padding-left: 30px;
+        display: flex;
+        align-items: end;
+      }
+      .expansion-bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/Pexels\ Photo\ by\ Cal\ David.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        color: $white;
+        font-size: 27px;
+        font-weight: bold;
+        padding-left: 30px;
+        display: flex;
+        align-items: end;
+      }
+      .refurbishment-bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/pexels-tima-miroshnichenko-6474343\ 2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        color: $white;
+        font-size: 27px;
+        font-weight: bold;
+        padding-left: 30px;
+        display: flex;
+        align-items: end;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .side-msg {
+    .side-message {
+      width: 771px;
+      height: 422px;
+      display: flex;
+      align-items: center;
+      
+      position: relative;
+      top: -94px;
+      font-size: 30px;
+    }
+  }
+  .services-our-services{
+    margin-top: 80px;
+    margin-bottom: 70;
+  }
+}
