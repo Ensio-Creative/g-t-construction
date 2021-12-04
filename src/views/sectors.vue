@@ -58,8 +58,12 @@ to private clients to major residential led mixed-use developments. Our ethos is
 <Footer />
 </template>
 
-<script setup>
+<script>
 import Footer from '../components/common/Footer.vue';
+export default {
+  title: 'Sectors | G&T',
+  components: { Footer }
+}
 </script>
 
 <style lang="scss" scoped>

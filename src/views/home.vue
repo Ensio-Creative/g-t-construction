@@ -69,6 +69,6 @@
 
 <script setup>
 import Footer from '../components/common/Footer.vue';
-  // title: "Home | G&T"
+  title: "Home | G&T"
 </script>
 

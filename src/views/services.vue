@@ -64,10 +64,13 @@
 <Footer />
 </template>
 
-<script setup>
+<script >
 // import ref from 'vue'
-title: 'Our services | G&T'
 import Footer from '../components/common/Footer.vue';
+export default {
+  title: 'Our services | G&T',
+  components: { Footer }
+}
 </script>
 
 <style lang="scss" scoped>

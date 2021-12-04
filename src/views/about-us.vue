@@ -35,9 +35,12 @@
 <Footer />
 </template>
 
-<script setup>
+<script>
 import Footer from '../components/common/Footer.vue';
-title: 'About us | G&T'
+export default {
+  title: 'About us | G&T',
+  components: {Footer}
+}
 </script>
 
 <style lang="scss" scoped>
