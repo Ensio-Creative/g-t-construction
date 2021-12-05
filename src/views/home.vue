@@ -38,7 +38,41 @@
         <p class="title">OUR SERVICES</p>
         <h2>Capabilities</h2>
         <p class="text">At G&T Construction we offer creative pricing, quality delivery and efficient service. </p>
-        <div class="row">
+        <div class="row slides-mobile">
+            <Splide :options="options">
+            <SplideSlide>
+              <div class="col-12 col-md-4 service-item">
+            <div class="new-bg">
+              <div class="content">
+                <p>New build</p>
+              </div>
+            </div>
+          </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div class="col-12 col-md-4 service-item">
+            <div class="expansion-bg">
+              <div class="content">
+                <p>Expansion/Extension</p>
+              </div>
+            </div>
+          </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div class="col-12 col-md-4 service-item">
+            <div class="refurbishment-bg">
+              <div class="content">
+                <p>Refurbishment</p>
+              </div>
+            </div>
+          </div>
+            </SplideSlide>
+          </Splide>
+          
+          
+        </div>
+        <div class="slides-desk">
+          <div class="row ">
           <div class="col-12 col-md-4 service-item">
             <div class="new-bg">
               <div class="content">
@@ -61,6 +95,7 @@
             </div>
           </div>
         </div>
+        </div>
       </div>
     </div>
   </section>
@@ -71,7 +106,26 @@
 import Footer from '../components/common/Footer.vue';
 export default {
   title: 'G&T Construction',
-  components: { Footer }
+  components: { Footer },
+  setup() {
+    const options = {
+      rewind : true,
+      perPage: 1,
+      height : '25rem',
+      width : '100rem',
+      drag   : 'free',
+      arrow: false,
+      breakpoints: {
+        1000: {
+          perPage: 1,
+        },
+      },
+    }
+
+    return {
+      options
+    }
+  }
 }
 </script>
 
