@@ -53,12 +53,25 @@ export default {
   display: flex;
   align-items: center;
   .content {
-    width: 400px;
+    width: 183px;
     margin: auto;
     h1 {
-      font-size: 80px;
+      text-align: center;
+      font-size: 40px;
     font-weight: bold;
     }
   }
+}
+
+@media (min-width: 1000px) {
+  .bg-hero {
+  .content {
+    width: 500px;
+    margin: auto;
+    h1 {
+      font-size: 80px;
+    }
+  }
+}
 }
 </style>

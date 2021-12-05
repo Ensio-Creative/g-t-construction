@@ -2,10 +2,12 @@
 .who-we-are{
   margin-bottom: 80px;
   margin-top: 80px;
+  .item {
+    height: 730px;
+  }
   .item:first-child {
     display: flex;
     align-items: center;
-    height: 600px;
     background-color: $yellow;
     .content {
       h2 {
@@ -20,10 +22,10 @@
   }
   .item:last-child {
     background-image: url('/img/civil-engineers-looking-at-blueprints-473683922-5c14287446e0fb00014ad74b 1.png');
-    height: 600px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 400px;
   }
 }
 
@@ -60,6 +62,9 @@
         width: 441px;
         margin: auto;
       }
+    }
+    .item:last-child {
+      height: 730px;
     }
   }
   .images-view {

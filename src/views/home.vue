@@ -67,8 +67,11 @@
   <Footer />
 </template>
 
-<script setup>
+<script >
 import Footer from '../components/common/Footer.vue';
-  title: "Home | G&T"
+export default {
+  title: 'G&T Construction',
+  components: { Footer }
+}
 </script>
 
