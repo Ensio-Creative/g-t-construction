@@ -55,6 +55,9 @@
   </div>
   </div>
 </section>
+<section class="container-fluid">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d990.7168668243253!2d-3.410602552495614!3d50.72999978397932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s3%20Revill%20Court%2C%20Exeter%20Airport%20Business%20Park%2C%20Exeter%2C%20Devon%20EX5%202UL!5e0!3m2!1sen!2sng!4v1638732999056!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
 </template>
 
 <script>
@@ -76,13 +79,36 @@ export default {
     }
   },
   methods: {
-    onSubmit () {
+    async onSubmit  () {
       const errorText = 'Fill every filed'
       if (!this.name) return this.errorMsg = errorText
       if (!this.email) return this.errorMsg = errorText
       if (!this.validEmail(this.email)) return this.errorMsg = 'Add a valid email'
       if (!this.subject) return this.errorMsg = errorText
       if (!this.about) return this.errorMsg = errorText
+      // $.ajax({
+      //     url: "",
+      //     method: "POST",
+          
+      //     dataType: "json"
+      // })
+      let data = {
+        name: this.name,
+        email: this.email,
+        subject: this.subject,
+        message: this.about
+      }
+      const response = await fetch('https://formsubmit.co/ajax/kingifean@gmail.com', {
+        method: 'POST', // *GET, POST, PUT, DELETE, etc.
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data) // body data type must match "Content-Type" header
+      });
+      console.log(response)
+      // return response.json();
+      if (response.status === 200) return this.errorMsg = 'Message sent'
+      if (response.status !== 200) return this.errorMsg = 'Something went wrong'
     },
     validEmail (email) {
       const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
