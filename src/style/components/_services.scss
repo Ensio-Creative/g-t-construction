@@ -26,12 +26,33 @@
       position: relative;
       left: -15px;
       p{
-        font-size: 17px;
+        font-size: 18px;
         color: $dark;
-        padding: 10px;
+        padding: 20px;
       }
-      .thumbnail {
-        background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/Pexels\ Photo\ by\ Max\ Vakhtbovych.png');
+      .thumbnail-1 {
+        background: url('/img/Pexels Photo by Julia Kuzenkov.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 80px;
+      }
+      .thumbnail-2 {
+        background: url('/img/Pexels Photo by Steffen Coonan.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 80px;
+      }
+      .thumbnail-3 {
+        background: url('/img/pexels-tima-miroshnichenko-6474346 1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 80px;
+      }
+      .thumbnail-4 {
+        background: url('/img/unsplash_yWwob8kwOCk.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
