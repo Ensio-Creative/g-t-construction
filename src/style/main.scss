@@ -48,9 +48,10 @@ a {
 }
 
 .title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   font-family: $raleFont;
+  margin-bottom: 0px;
 }
 
 // Desktop nav
@@ -84,7 +85,7 @@ nav {
               color: $yellow;
             }
             &.router-link-exact-active {
-              color: $yellow;
+              color: $dark;
             }
           }
         }
@@ -109,7 +110,7 @@ nav {
               color: $yellow;
             }
             &.router-link-exact-active {
-              color: $yellow;
+              color: $white;
             }
           }
         }
