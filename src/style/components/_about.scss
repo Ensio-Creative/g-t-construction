@@ -1,7 +1,6 @@
 
 .who-we-are{
   margin-bottom: 80px;
-  margin-top: 80px;
   .item {
     height: 730px;
   }
@@ -37,6 +36,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 20px;
   }
   .img-view-2 {
     height: 400px;
@@ -44,6 +44,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 20px;
   }
   .img-view-3 {
     height: 400px;
@@ -56,6 +57,7 @@
 
 @media (min-width: 1000px) {
   .who-we-are{
+    margin-top: 80px;
     .item:first-child {
       background-color: $yellow;
       .content {
@@ -68,8 +70,13 @@
     }
   }
   .images-view {
+    margin-top: 119px;
+    .img-view-1 {
+      margin-bottom: 0px;
+    }
     .img-view-2 {
       position: relative;
+      margin-bottom: 0px;
       top: -40px;
     }
   }
