@@ -11,7 +11,7 @@
             >
             <img
               v-else
-              src="/img/g-&-t-logo 1.svg" alt=""
+              src="/img/g-&-t-logo-1.svg" alt=""
             >
         </div>
         <ul class="nav-container">
