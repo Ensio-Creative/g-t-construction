@@ -24,7 +24,7 @@
                   <div class="thumbnail-1"></div>
                   <p>G&T Construction works closely with clients, developers, and architects to create purpose-built facilities that meet the requirements of scheme aesthetics, function, and budget.</p>
                 </div>
-                  <img v-if="newBuild" src="/img/Vector 42.svg" alt="">
+                  <img v-if="newBuild" src="/img/Vector42.svg" alt="">
                 <p>Newbuild</p>
                 <button @click="[!newBuild ? newBuild = true : newBuild = false]" class="learn-btn">Learn more</button>
               </div>
@@ -37,7 +37,7 @@
                   <div class="thumbnail-2"></div>
                   <p>Expansion of existing facilities can be undertaken whilst they remain operational in many cases, and we work closely with our clients to ensure minimal disruption.</p>
                 </div>
-                <img v-if="expansion" src="/img/Vector 42.svg" alt="">
+                <img v-if="expansion" src="/img/Vector42.svg" alt="">
                 <p>Expansion/Extension</p>
                 <button @click="[!expansion ? expansion = true : expansion = false]" class="learn-btn">Learn more</button>
               </div>
@@ -50,7 +50,7 @@
                   <div class="thumbnail-3"></div>
                   <p>G&T Construction carries out a variety of refurbishment works to warehouse and office space, from aesthetic updates to more significant renovation works.</p>
                 </div>
-                <img v-if="refub"  src="/img/Vector 42.svg" alt="">
+                <img v-if="refub"  src="/img/Vector42.svg" alt="">
                 <p>Refurbishment</p>
                 <button @click="[!refub ? refub = true : refub = false]" class="learn-btn">Learn more</button>
               </div>
@@ -63,7 +63,7 @@
                   <div class="thumbnail-4"></div>
                   <p>We can undertake fit-out works to a variety of existing commercial and industrial facilities, from office spaces to retail outlets.</p>
                 </div>
-                <img v-if="fitOut" src="/img/Vector 42.svg" alt="">
+                <img v-if="fitOut" src="/img/Vector42.svg" alt="">
                 <p>Fit-out</p>
                 <button @click="[!fitOut ? fitOut = true : fitOut = false]" class="learn-btn">Learn more</button>
               </div>
