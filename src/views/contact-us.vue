@@ -61,8 +61,8 @@
   </div>
   </div>
 </section>
-<section class="container-fluid">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d990.7168668243253!2d-3.410602552495614!3d50.72999978397932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s3%20Revill%20Court%2C%20Exeter%20Airport%20Business%20Park%2C%20Exeter%2C%20Devon%20EX5%202UL!5e0!3m2!1sen!2sng!4v1638732999056!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<section >
+  <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d990.7168668243253!2d-3.410602552495614!3d50.72999978397932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s3%20Revill%20Court%2C%20Exeter%20Airport%20Business%20Park%2C%20Exeter%2C%20Devon%20EX5%202UL!5e0!3m2!1sen!2sng!4v1638732999056!5m2!1sen!2sng" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
 <Footer />
 </template>
@@ -107,7 +107,7 @@ export default {
         subject: this.subject,
         message: this.about
       }
-      const response = await fetch('https://formsubmit.co/ajax/kingifean@gmail.com', {
+      const response = await fetch('https://formsubmit.co/ajax/info@gandtconstruction.co.uk', {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         headers: {
           'Content-Type': 'application/json'
@@ -149,6 +149,10 @@ export default {
       text-align: center;
     }
   }
+}
+
+iframe {
+  height: 500px;
 }
 
 @media (min-width: 1000px) {

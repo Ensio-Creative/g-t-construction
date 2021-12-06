@@ -323,17 +323,17 @@ body {
   margin: 75px auto;
 }
 
-.slides-desk {
-  display: none
-}
-@media (min-width: 800px) {
-  .slides-desk {
-    display: block
-  }
-  .slides-mobile {
-  display: none
-  }
-}
+// .slides-desk {
+//   display: none
+// }
+// @media (min-width: 800px) {
+//   .slides-desk {
+//     display: block
+//   }
+//   .slides-mobile {
+//   display: none
+//   }
+// }
 
 @import 'components/home';
 @import 'components/footer';

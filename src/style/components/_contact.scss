@@ -6,7 +6,7 @@
     .content {
       width: 350px;
       margin: auto;
-      padding-top: 50px;
+      padding-top: 40px;
       .content-item {
         padding-top: 20px;
         border-bottom: 1px solid $gray;
@@ -33,11 +33,16 @@
       }
     }
   }
+  .contact-item:first-child {
+    height: 84vh;
+  }
   .contact-item:last-child {
     background-color: $gray;
+    height: 118vh;
     .content {
       width: 480px;
       margin: auto;
+      // padding-top: 60px;
       h5 {
         font-size: 27px;
         font-weight: bold;
@@ -83,8 +88,15 @@
 
 @media (min-width: 1000px) {
   .contact {
+    .contact-item:first-child {
+      height: 130vh;
+      .content {
+        padding-top: 90px;
+      }
+    }
     .contact-item:last-child {
       .content {
+        padding-top: 90px;
         .form-content {
           input  {
             width: 531px;
