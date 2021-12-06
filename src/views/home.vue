@@ -4,7 +4,7 @@
       <div class="content">
       <h2>Whatever you imagine, we build for you</h2>
       <p class="first-hero-text">We offer a full design and build service or work in partnership with your existing project team to deliver your building solution.</p>
-      <button @click="ctx.router.push('/sectors')" class="btn-yellow">Learn more <img src="/img/Vector 5.svg" alt=""> </button>
+      <button @click="$router.push('/sectors')" class="btn-yellow">Learn more <img src="/img/Vector 5.svg" alt=""> </button>
       <!-- <p>Residential | Industrial & Distribution | Commercial | Retail & Leisure | Education</p> -->
       </div>
     </div>
@@ -40,21 +40,21 @@
         <p class="text">At G&T Construction we offer creative pricing, quality delivery and efficient service. </p>
           <div class="row ">
           <div class="col-12 col-md-4 service-item">
-            <div class="new-bg">
+            <div @click="$router.push('/services')" class="new-bg">
               <div class="content">
                 <p>New build</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-4 service-item">
-            <div class="expansion-bg">
+            <div @click="$router.push('/services')" class="expansion-bg">
               <div class="content">
                 <p>Expansion/Extension</p>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-4 service-item">
-            <div class="refurbishment-bg">
+            <div @click="$router.push('/services')" class="refurbishment-bg">
               <div class="content">
                 <p>Refurbishment</p>
               </div>
@@ -68,11 +68,13 @@
 </template>
 
 <script >
+import { useRoute } from 'vue-router';
 import Footer from '../components/common/Footer.vue';
 export default {
   title: 'G&T Construction',
   components: { Footer },
   setup(props, ctx) {
+    const router = useRoute()
     const options = {
       rewind : true,
       perPage: 1,
@@ -88,7 +90,8 @@ export default {
     }
 
     return {
-      options
+      options,
+      router
     }
   }
 }
