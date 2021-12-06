@@ -16,7 +16,7 @@
       </div>
       <div class="icon icon-apple">
         <router-link to="/">
-            <img src="/img/g-&-t-logo-1.svg" alt="">
+            <img src="/img/g-&-t-logo.png" alt="">
           </router-link>
       </div>
       <ul

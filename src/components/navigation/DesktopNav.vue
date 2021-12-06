@@ -7,11 +7,11 @@
         <div class="nav-brand">
             <img
               v-if="view.topOfPage"
-              src="/img/logo-white.png" alt=""
+              src="/img/g-&-t-construction-logo-white.png" alt=""
             >
             <img
               v-else
-              src="/img/g-&-t-logo-1.svg" alt=""
+              src="/img/g-&-t-logo.png" alt=""
             >
         </div>
         <ul class="nav-container">

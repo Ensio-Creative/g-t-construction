@@ -23,8 +23,8 @@
           <div class="content">
             <p class="title">ABOUT US</p>
           <h2>Who we are</h2>
-          <p class="text-content">Established in 1990, G&T Construction Ltd has evolved from a combination of its electrical, engineering and design consultancy roots to a main contracting business with capability in delivering a wide range of construction projects across the Southwest of England. </p>
-        <button class="btn-yellow">Learn more <img src="/img/Vector5.svg" alt=""> </button>
+          <p class="text-content">Established in 1990, G&T Construction has evolved from a combination of its electrical, engineering and design consultancy roots to a main contracting business with capability in delivering a wide range of construction projects across the Southwest of England. </p>
+        <button @click="$router.push('/about-us')" class="btn-yellow">Learn more <img src="/img/Vector5.svg" alt=""></button>
         </div>
           </div>
         <div class="col-12 col-md-6 about-item"></div>

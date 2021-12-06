@@ -8,7 +8,7 @@
 <section class="side-msg">
   <div class="side-message">
     <div class="container">
-    <p>G&T Construction operates across a range of sectors, with a particular specialism in the construction of residential, industrial, commercial, retail, and educational facilities.</p>
+    <p>G&T Construction operates across a range of sectors including residential, industrial, commercial, retail and educational projects.</p>
   </div>
   </div>
 </section>

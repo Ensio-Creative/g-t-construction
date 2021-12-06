@@ -13,6 +13,7 @@
       <div class="content">
         <div class="content-item">
           <h5>Head Office</h5>
+          <span>G&T Services (SW) Ltd</span>
           <p>3 Revill Court, Exeter Airport Business Park, Exeter, Devon EX5 2UL</p>
         </div>
         <div class="content-item">
