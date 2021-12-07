@@ -5,19 +5,22 @@
       :class="state.toggleMobile"
     >
     <div class="container">
-      <div
-        class="burger-container"
-        @click="chanageMobileState"
-      >
+      <div class="flx-img-buger">
+        <div class="icon icon-apple">
+        <router-link to="/">
+            <img src="/img/g-&-t-logo.png" alt="">
+          </router-link>
+      </div>
+        <div
+          class="burger-container"
+          @click="chanageMobileState"
+        >
         <div id="burger">
           <div class="bar topBar"></div>
           <div class="bar btmBar"></div>
         </div>
       </div>
-      <div class="icon icon-apple">
-        <router-link to="/">
-            <img src="/img/g-&-t-logo.png" alt="">
-          </router-link>
+      
       </div>
       <ul
         class="menu"
