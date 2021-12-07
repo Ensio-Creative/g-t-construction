@@ -36,16 +36,27 @@
     <div class="col-12 col-md-3 footer-item">
       <h4>Follow us</h4>
       <div class="content-social">
-          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+          <div class="social-item">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <div class="social-item">
+
           <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="social-item">
+
           <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="social-item">
+
           <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+          </div>
         </div>
     </div>
   </div>
   <div class=" copyright mt-5">
       <p class="copy-items">&copy; {{ new Date().getFullYear() }} G & T Construction.</p>
-      <p class="copy-items">Site Credit: <strong> <a href="https://ensiocreative.com">Ensio Creative</a> </strong></p>
+      <p class="copy-items">Site Credit: <strong> <a href="https://ensiocreative.com" target="_blank" rel="noopener noreferrer">Ensio Creative</a> </strong></p>
     </div>
   </div>
 </section>

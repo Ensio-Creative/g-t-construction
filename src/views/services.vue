@@ -15,7 +15,7 @@
 
 <section class="services-our-services">
     <div class="container">
-      <div class="content">
+      <div class="services-content">
         <div class="row">
           <div class="col-12 col-md-4 service-item mt-5">
             <div class="new-bg">
