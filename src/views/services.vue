@@ -26,7 +26,7 @@
                 </div>
                   <img v-if="newBuild" src="/img/Vector42.svg" alt="">
                 <p>Newbuild</p>
-                <button @click="[!newBuild ? newBuild = true : newBuild = false]" class="learn-btn">Learn more</button>
+                <button @click="openNewbuild(newBuild)" class="learn-btn">Learn more</button>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@
                 </div>
                 <img v-if="expansion" src="/img/Vector42.svg" alt="">
                 <p>Expansion/Extension</p>
-                <button @click="[!expansion ? expansion = true : expansion = false]" class="learn-btn">Learn more</button>
+                <button @click="openExpansion(expansion)" class="learn-btn">Learn more</button>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@
                 </div>
                 <img v-if="refub"  src="/img/Vector42.svg" alt="">
                 <p>Refurbishment</p>
-                <button @click="[!refub ? refub = true : refub = false]" class="learn-btn">Learn more</button>
+                <button @click="openRefub(refub)" class="learn-btn">Learn more</button>
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@
                 </div>
                 <img v-if="fitOut" src="/img/Vector42.svg" alt="">
                 <p>Fit-out</p>
-                <button @click="[!fitOut ? fitOut = true : fitOut = false]" class="learn-btn">Learn more</button>
+                <button @click="openFitout(fitOut)" class="learn-btn">Learn more</button>
               </div>
             </div>
           </div>
@@ -88,6 +88,44 @@ export default {
       expansion: false,
       refub: false,
       fitOut: false
+    }
+  },
+  methods: {
+    openNewbuild (value) {
+      if (value) {
+       return this.newBuild = false 
+      }
+      this.newBuild = true
+      this.expansion = false
+      this.refub = false
+      this.fitOut = false
+    },
+    openExpansion (value) {
+      if (value) {
+       return this.expansion = false 
+      }
+      this.newBuild = false
+      this.expansion = true
+      this.refub = false
+      this.fitOut = false
+    },
+    openRefub (value) {
+      if (value) {
+       return this.refub = false 
+      }
+      this.newBuild = false
+      this.expansion = false
+      this.refub = true
+      this.fitOut = false
+    },
+    openFitout (value) {
+      if (value) {
+       return this.fitOut = false 
+      }
+      this.newBuild = false
+      this.expansion = false
+      this.refub = false
+      this.fitOut = true
     }
   }
 }
