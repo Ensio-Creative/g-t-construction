@@ -137,12 +137,13 @@ export default {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
-  height: 80vh;
+  height: 40vh;
   display: flex;
   align-items: center;
   .content {
     width: 249px;
     margin: auto;
+    height: 0vh;
     h1 {
       text-align: center;
       font-size: 40px;
@@ -153,9 +154,11 @@ export default {
 
 @media (min-width: 1000px) {
   .bg-hero {
+    height: 80vh;
   .content {
     width: 500px;
     margin: auto;
+    height: 20vh;
     h1 {
       font-size: 80px;
     }

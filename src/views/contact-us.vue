@@ -134,18 +134,20 @@ export default {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
-  height: 80vh;
+  height: 40vh;
   display: flex;
   align-items: center;
   .content {
     width: 619px;
     margin: auto;
+    height: 0vh;
     h1 {
       font-size: 40px;
       font-weight: bold;
       text-align: center;
     }
     p {
+      padding: 20px;
       font-size: 15px;
       text-align: center;
     }
@@ -158,13 +160,16 @@ iframe {
 
 @media (min-width: 1000px) {
   .bg-hero {
+    height: 80vh;
   .content {
     width: 500px;
     margin: auto;
+    height: 20vh;
     h1 {
       font-size: 80px;
     }
     p {
+      padding: 0px;
       font-size: 30px;
     }
   }

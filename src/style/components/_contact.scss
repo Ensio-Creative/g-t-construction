@@ -34,11 +34,11 @@
     }
   }
   .contact-item:first-child {
-    height: 84vh;
+    height: 64vh;
   }
   .contact-item:last-child {
     background-color: $gray;
-    height: 118vh;
+    height: 84vh;
     .content {
       width: 480px;
       margin: auto;
@@ -95,6 +95,7 @@
       }
     }
     .contact-item:last-child {
+      height: 130vh;
       .content {
         padding-top: 90px;
         .form-content {
