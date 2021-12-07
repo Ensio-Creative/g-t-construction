@@ -2,7 +2,7 @@
 .who-we-are{
   margin-bottom: 80px;
   .item {
-    height: 730px;
+    height: 410px;
   }
   .item:first-child {
     display: flex;
@@ -60,6 +60,9 @@
 @media (min-width: 1000px) {
   .who-we-are{
     margin-top: 80px;
+    .item {
+      height: 730px;
+    }
     .item:first-child {
       background-color: $yellow;
       .content {

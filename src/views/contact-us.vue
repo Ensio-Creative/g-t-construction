@@ -27,10 +27,21 @@
           <span>info@gandtconstruction.co.uk </span>
         </div>
         <div class="content-social">
-          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+          <div class="social-item">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <div class="social-item">
+
           <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="social-item">
+
           <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="social-item">
+
           <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+          </div>
         </div>
       </div>
     </div>
@@ -142,12 +153,13 @@ export default {
     margin: auto;
     height: 0vh;
     h1 {
+      margin-bottom: -5px;
       font-size: 40px;
       font-weight: bold;
       text-align: center;
     }
     p {
-      padding: 20px;
+      padding: 0px 20px 0px 20px;
       font-size: 15px;
       text-align: center;
     }
@@ -167,6 +179,7 @@ iframe {
     height: 20vh;
     h1 {
       font-size: 80px;
+      margin-bottom: 0px;
     }
     p {
       padding: 0px;

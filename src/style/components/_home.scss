@@ -24,13 +24,13 @@
 
 .yellow-bg {
   background-color: $yellow;
-  height: 562px;
-  font-size: 26px;
+  height: 360px;
+  font-size: 20px;
   text-align: center;
   .container{
     display: flex;
     align-items: center;
-    height: 562px;
+    height: 360px;
   }
 }
 
@@ -40,15 +40,14 @@
     background-color: $gray;
     display: flex;
     align-items: center;
-    height: 481px;
+    height: 365px;
     .content {
       h2 {
         font-weight: 800;
         font-size: 40px;
-        padding-bottom: 10px;
       }
       .text-content{
-        font-size: 20px;
+        font-size: 16px;
         padding-bottom: 10px;
       }
     }
@@ -64,7 +63,7 @@
 
 .home-our-services {
   background-color: $white;
-  margin-top: 235px;
+  margin-top: 125px;
   margin-bottom: 893px;
   .container {
     height: 600px;
@@ -72,10 +71,9 @@
       h2 {
         font-weight: 800;
         font-size: 40px;
-        padding-bottom: 10px;
       }
       .text {
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 40px;
       }
       .service-item {
@@ -152,6 +150,7 @@
 
   .yellow-bg {
     height: 500px;
+    font-size: 26px;
     .container{
       height: 500px;
       .content {
@@ -171,6 +170,9 @@
       .content {
         width: 386px;
         margin: auto;
+        .text-content{
+          font-size: 20px;
+        }
       }
     }
     .about-item:last-child {
@@ -183,6 +185,7 @@
     .container {
       .content{
         .text {
+          font-size: 20px;
           width: 404px;
         }
       }
