@@ -80,7 +80,7 @@
 // import ref from 'vue'
 import Footer from '../components/common/Footer.vue'
 export default {
-  title: 'Our services | G&T',
+  title: 'G & T Construction - Services',
   components: { Footer },
   data () {
     return  {

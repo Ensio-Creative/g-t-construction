@@ -38,7 +38,7 @@
 <script>
 import Footer from '../components/common/Footer.vue';
 export default {
-  title: 'About us | G&T',
+  title: 'G & T Construction - About',
   components: {Footer}
 }
 </script>
