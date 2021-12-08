@@ -61,7 +61,7 @@ to private clients to major residential led mixed-use developments. Our ethos is
 <script>
 import Footer from '../components/common/Footer.vue';
 export default {
-  title: 'G & T Construction - Sectors',
+  title: 'G&T Construction - Sectors',
   components: { Footer }
 }
 </script>

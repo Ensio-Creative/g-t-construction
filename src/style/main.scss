@@ -83,7 +83,7 @@ nav {
           a {
             color: $dark;
             &:hover {
-              color: $yellow;
+              color: $dark;
             }
             &.router-link-exact-active {
               color: $dark;
@@ -109,7 +109,7 @@ nav {
           a {
             color: $white;
             &:hover {
-              color: $yellow;
+              color: $white
             }
             &.router-link-exact-active {
               color: $white;

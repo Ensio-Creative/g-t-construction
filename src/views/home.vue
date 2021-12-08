@@ -41,24 +41,24 @@
           <div class="row ">
           <div class="col-12 col-md-4 service-item">
             <div @click="$router.push('/services')" class="new-bg">
-              <div class="content">
-                <p>New build</p>
-              </div>
             </div>
+              <div class="title-text">
+                <p>Newbuild</p>
+              </div>
           </div>
           <div class="col-12 col-md-4 service-item">
             <div @click="$router.push('/services')" class="expansion-bg">
-              <div class="content">
+            </div>
+              <div class="title-text">
                 <p>Expansion/Extension</p>
               </div>
-            </div>
           </div>
           <div class="col-12 col-md-4 service-item">
             <div @click="$router.push('/services')" class="refurbishment-bg">
-              <div class="content">
+            </div>
+              <div class="title-text">
                 <p>Refurbishment</p>
               </div>
-            </div>
           </div>
         </div>
         </div>
@@ -71,7 +71,7 @@
 import { useRoute } from 'vue-router';
 import Footer from '../components/common/Footer.vue';
 export default {
-  title: 'G & T Construction - Home',
+  title: 'G&T Construction - Home',
   components: { Footer },
   setup(props, ctx) {
     const router = useRoute()

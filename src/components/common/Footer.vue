@@ -55,7 +55,7 @@
     </div>
   </div>
   <div class=" copyright mt-5">
-      <p class="copy-items">&copy; {{ new Date().getFullYear() }} G & T Construction.</p>
+      <p class="copy-items">&copy; {{ new Date().getFullYear() }} G&T Construction.</p>
       <p class="copy-items">Site Credit: <strong> <a href="https://ensiocreative.com" target="_blank" rel="noopener noreferrer">Ensio Creative</a> </strong></p>
     </div>
   </div>
@@ -72,41 +72,41 @@ export default {
       services: [
         {
           title: 'Newbuild',
-          url: '#'
+          url: '/services'
         },
         {
           title: 'Expansion/Extension',
-          url: '#'
+          url: '/services'
         },
         {
           title: 'Refurbishment',
-          url: '#'
+          url: '/services'
         },
         {
           title: 'Fit-Out',
-          url: '#'
+          url: '/services'
         }
       ],
       sectors: [
         {
           title: 'Residential',
-          url: '#'
+          url: '/sectors'
         },
         {
           title: 'Industrial & Distribution',
-          url: '#'
+          url: '/sectors'
         },
         {
           title: 'Commercial',
-          url: '#'
+          url: '/sectors'
         },
         {
           title: 'Retail & Leisure',
-          url: '#'
+          url: '/sectors'
         },
         {
           title: 'Education',
-          url: '#'
+          url: '/sectors'
         }
       ]
     }

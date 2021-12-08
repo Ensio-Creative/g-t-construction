@@ -19,55 +19,55 @@
         <div class="row">
           <div class="col-12 col-md-4 service-item mt-5">
             <div class="new-bg">
-              <div class="content">
-                <div v-if="newBuild" class="read-more">
-                  <div class="thumbnail-1"></div>
-                  <p>G&T Construction works closely with clients, developers, and architects to create purpose-built facilities that meet the requirements of scheme aesthetics, function, and budget.</p>
-                </div>
-                  <img v-if="newBuild" src="/img/Vector42.svg" alt="">
-                <p>Newbuild</p>
-                <button @click="openNewbuild(newBuild)" class="learn-btn">Learn more</button>
+              <div v-if="newBuild" class="read-more">
+                <div class="thumbnail-1"></div>
+                <p>G&T Construction works closely with clients, developers, and architects to create purpose-built facilities that meet the requirements of scheme aesthetics, function, and budget.</p>
               </div>
+                <img v-if="newBuild" src="/img/Vector42.svg" alt="">
+            </div>
+            <div class="title-text">
+              <p>Newbuild</p>
+              <button @click="openNewbuild(newBuild)" class="learn-btn">Learn more</button>
             </div>
           </div>
           <div class="col-12 col-md-4 service-item mt-5">
             <div class="expansion-bg">
-              <div class="content">
                 <div v-if="expansion" class="read-more">
                   <div class="thumbnail-2"></div>
                   <p>Expansion of existing facilities can be undertaken whilst they remain operational in many cases, and we work closely with our clients to ensure minimal disruption.</p>
                 </div>
                 <img v-if="expansion" src="/img/Vector42.svg" alt="">
+            </div>
+              <div class="title-text">
                 <p>Expansion/Extension</p>
                 <button @click="openExpansion(expansion)" class="learn-btn">Learn more</button>
               </div>
-            </div>
           </div>
           <div class="col-12 col-md-4 service-item mt-5">
             <div class="refurbishment-bg">
-              <div class="content">
                 <div v-if="refub" class="read-more">
                   <div class="thumbnail-3"></div>
                   <p>G&T Construction carries out a variety of refurbishment works to warehouse and office space, from aesthetic updates to more significant renovation works.</p>
                 </div>
                 <img v-if="refub"  src="/img/Vector42.svg" alt="">
+            </div>
+              <div class="title-text">
                 <p>Refurbishment</p>
                 <button @click="openRefub(refub)" class="learn-btn">Learn more</button>
               </div>
-            </div>
           </div>
           <div class="col-12 col-md-4 service-item mt-5">
-            <div class="refurbishment-bg">
-              <div class="content">
+            <div class="fit-out-bg">
                 <div v-if="fitOut" class="read-more">
                   <div class="thumbnail-4"></div>
                   <p>We can undertake fit-out works to a variety of existing commercial and industrial facilities, from office spaces to retail outlets.</p>
                 </div>
                 <img v-if="fitOut" src="/img/Vector42.svg" alt="">
+            </div>
+              <div class="title-text">
                 <p>Fit-out</p>
                 <button @click="openFitout(fitOut)" class="learn-btn">Learn more</button>
               </div>
-            </div>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@
 // import ref from 'vue'
 import Footer from '../components/common/Footer.vue'
 export default {
-  title: 'G & T Construction - Services',
+  title: 'G&T Construction - Services',
   components: { Footer },
   data () {
     return  {

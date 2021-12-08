@@ -10,28 +10,14 @@
 .services-our-services {
   background-color: $white;
   margin-top: 30px;
-  margin-bottom: 1250px;
+  margin-bottom: 1500px;
   .container {
     height: 600px;
-    p {
-      margin-bottom: -17px;
-    }
-    .learn-btn {
-      background-color: transparent;
-      border: 0px;
-      color: $white;
-      font-size: 14px;
-      border-bottom: 1px solid $white;
-      margin-bottom: 30px;
-      &:focus {
-        outline: none;
-      }
-    }
     .read-more {
       background-color: $white;
       position: relative;
-      left: -15px;
-      top: 18px;
+      left: -11px;
+      top: -21px;
       p{
         font-size: 18px;
         color: $dark;
@@ -76,7 +62,7 @@
       img {
         width: 42px;
         position: relative;
-        top: 20px;
+        top: -53px;
       }
       .text {
         width: 334px;
@@ -88,12 +74,7 @@
         background-size: cover;
         width: 100%;
         height: 400px;
-        color: $white;
-        font-size: 27px;
-        font-weight: bold;
-        padding-left: 30px;
-        display: flex;
-        align-items: end;
+        padding-left: 20px;
       }
       .expansion-bg {
         background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/Pexels\ Photo\ by\ Cal\ David.png');
@@ -102,12 +83,7 @@
         background-size: cover;
         width: 100%;
         height: 400px;
-        color: $white;
-        font-size: 27px;
-        font-weight: bold;
-        padding-left: 30px;
-        display: flex;
-        align-items: end;
+        padding-left: 20px;
       }
       .refurbishment-bg {
         background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/pexels-tima-miroshnichenko-6474343\ 2.png');
@@ -116,12 +92,34 @@
         background-size: cover;
         width: 100%;
         height: 400px;
-        color: $white;
-        font-size: 27px;
-        font-weight: bold;
-        padding-left: 30px;
-        display: flex;
-        align-items: end;
+        padding-left: 20px;
+      }
+      .fit-out-bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/fit-out.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        padding-left: 20px;
+      }
+      .title-text {
+        padding: 5px 20px;
+        p {
+          font-size: 24px;
+          font-weight: bold;
+          margin-bottom: 0px;
+        }
+        .learn-btn {
+          background-color: transparent;
+          border: 0px;
+          color: $dark;
+          font-size: 14px;
+          border-bottom: 1px solid $dark;
+          &:focus {
+            outline: none;
+          }
+        }
       }
     }
   }
@@ -145,6 +143,6 @@
   }
   .services-our-services{
     margin-top: -80px;
-    margin-bottom: 365px;
+    margin-bottom: 500px;
   }
 }
