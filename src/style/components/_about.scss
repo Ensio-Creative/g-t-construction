@@ -10,8 +10,8 @@
     background-color: $yellow;
     .content {
       h2 {
-        font-weight: 800;
-        font-size: 40px;
+        font-size: 27px;
+        font-weight: bold;
         padding: 0px 10px;
       }
       p {
@@ -68,6 +68,8 @@
         width: 441px;
         margin: auto;
         h2 {
+          font-weight: 800;
+          font-size: 40px;
           padding: 0px;
         }
         p {

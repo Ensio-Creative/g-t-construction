@@ -64,7 +64,7 @@
 .home-our-services {
   background-color: $white;
   margin-top: 125px;
-  margin-bottom: 999px;
+  margin-bottom: 1020px;
   .container {
     height: 600px;
     .content{
@@ -83,6 +83,7 @@
         padding: 10px 20px;
         font-size: 24px;
         font-weight: bold;
+        cursor: pointer;
       }
       .new-bg {
         background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/Pexels\ Photo\ by\ Max\ Vakhtbovych.png');

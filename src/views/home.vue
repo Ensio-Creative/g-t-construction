@@ -43,21 +43,21 @@
             <div @click="$router.push('/services')" class="new-bg">
             </div>
               <div class="title-text">
-                <p>Newbuild</p>
+                <p @click="$router.push('/services')">Newbuild</p>
               </div>
           </div>
           <div class="col-12 col-md-4 service-item">
             <div @click="$router.push('/services')" class="expansion-bg">
             </div>
               <div class="title-text">
-                <p>Expansion/Extension</p>
+                <p @click="$router.push('/services')">Expansion/Extension</p>
               </div>
           </div>
           <div class="col-12 col-md-4 service-item">
             <div @click="$router.push('/services')" class="refurbishment-bg">
             </div>
               <div class="title-text">
-                <p>Refurbishment</p>
+                <p @click="$router.push('/services')">Refurbishment</p>
               </div>
           </div>
         </div>

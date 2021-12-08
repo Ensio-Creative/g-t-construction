@@ -48,7 +48,7 @@ a {
 }
 
 .title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   font-family: $raleFont;
   margin-bottom: 0px;
@@ -321,14 +321,17 @@ body {
 // .slides-desk {
 //   display: none
 // }
-// @media (min-width: 800px) {
-//   .slides-desk {
-//     display: block
-//   }
-//   .slides-mobile {
-//   display: none
-//   }
-// }
+@media (min-width: 1000px) {
+  // .slides-desk {
+  //   display: block
+  // }
+  // .slides-mobile {
+  // display: none
+  // }
+  .title {
+    font-size: 18px
+  }
+}
 
 @import 'components/home';
 @import 'components/footer';
