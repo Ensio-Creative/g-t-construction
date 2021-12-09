@@ -266,8 +266,9 @@ body {
     background-color: #C4C4C4;
     padding: 1px;
     position: relative;
-  bottom: 11px;
-  width: 258px;
+    bottom: 11px;
+    width: 258px;
+    opacity: 40%;
   }
   .text:nth-child(3) {
     color: $dark;
