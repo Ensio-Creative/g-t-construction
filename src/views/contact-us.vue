@@ -20,7 +20,7 @@
           <h5>Phone</h5>
           <p>01392 444 642</p>
         </div>
-        <div class="content-item">
+        <div class="content-item pb-3">
           <h5>Email</h5>
           <span>sales@g-and-t.co.uk</span>
           <br />

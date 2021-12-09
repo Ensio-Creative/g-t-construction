@@ -17,20 +17,32 @@ const routes = [
 		path: '/services',
 		name: 'Services',
 		component: () =>
-			import(/* webpackChunkName: "about" */ '../views/services.vue')
+			import(/* webpackChunkName: "services" */ '../views/services.vue')
 	},
 	{
 		path: '/sectors',
 		name: 'sectors',
 		component: () =>
-			import(/* webpackChunkName: "about" */ '../views/sectors.vue')
+			import(/* webpackChunkName: "sectors" */ '../views/sectors.vue')
 	},
 	{
 		path: '/contact-us',
 		name: 'contact-us',
 		component: () =>
-			import(/* webpackChunkName: "about" */ '../views/contact-us.vue')
+			import(/* webpackChunkName: "contact" */ '../views/contact-us.vue')
+	},
+	{
+		path: '/privacy',
+		name: 'privacy',
+		component: () =>
+			import(/* webpackChunkName: "privacy" */ '../views/privacy.vue')
 	}
+	// {
+  //   path: '*',
+  //   alias: '*',
+  //   name: 'Not-found',
+  //   component: () => import(/* webpackChunkName: 'not found' */ '../views/NotFound.vue')
+  // }
 ]
 
 const router = createRouter({
