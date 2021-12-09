@@ -40,19 +40,11 @@
       <h4>Follow us</h4>
       <div class="content-social">
           <div class="social-item">
-            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://www.facebook.com/GT-Construction-104504248754439/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
           </div>
           <div class="social-item">
 
-          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-          </div>
-          <div class="social-item">
-
-          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-          </div>
-          <div class="social-item">
-
-          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.linkedin.com/company/gandtconstructionuk" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
     </div>
