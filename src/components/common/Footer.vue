@@ -66,12 +66,29 @@
 </template>
 
 <script>
-import routes from '../../data/baseNav.js'
+// import routes from '../../data/baseNav.js'
 export default {
   name: 'Footer',
   data () {
     return {
-      routes,
+      routes: [
+        {
+          title: 'About us',
+          url: '/about-us'
+        },
+        {
+          title: 'Services',
+          url: '/services'
+        },
+        {
+          title: 'Sectors',
+          url: '/sectors'
+        },
+        {
+          title: 'Contact us',
+          url: '/contact-us'
+        }
+      ],
       services: [
         {
           title: 'Newbuild',
@@ -112,14 +129,6 @@ export default {
           url: '/sectors'
         }
       ]
-    }
-  },
-  mounted () {
-    this.removeHome()
-  },
-  methods: {
-    removeHome () {
-      routes.slice(0, 0)
     }
   }
 }  

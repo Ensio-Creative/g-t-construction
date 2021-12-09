@@ -10,6 +10,7 @@
             <span>01392 444 642</span>
           </div>
         </div>
+          <hr />
         <div class="nav-container">
           <div class="nav-brand">
             <img
