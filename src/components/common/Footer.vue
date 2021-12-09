@@ -11,6 +11,9 @@
           :key="route.url">
           <router-link :to="route.url">{{ route.title }}</router-link>
         </li>
+        <li>
+          <a href="https://business.yell.com/websites-privacy-cookie-policy/" target="_blank" rel="noopener noreferrer">Privacy & Cookie Policy</a>
+        </li>
       </ul>
     </div>
     <div class="col-12 col-md-3 footer-item">

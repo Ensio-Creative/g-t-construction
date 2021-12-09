@@ -3,8 +3,15 @@
     <nav
       :class="[view.topOfPage ? 'navigate' : 'onScroll']"
     >
-      <div class="container mt-3">
-        <div class="nav-brand">
+      <div class="container">
+        <div class="nav-contact">
+          <div class="contact">
+            <span>info@gandtconstruction.co.uk</span>
+            <span>01392 444 642</span>
+          </div>
+        </div>
+        <div class="nav-container">
+          <div class="nav-brand">
             <img
               v-if="view.topOfPage"
               src="/img/g-&-t-construction-logo-white.png" alt=""
@@ -23,6 +30,7 @@
             <router-link :to="route.url" class="nav-link">{{ route.title }}</router-link>
           </li>
         </ul>
+        </div>
       </div>
    </nav>
   </div>

@@ -58,8 +58,7 @@ a {
 nav {
   position: fixed;
   width: 100%;
-  height: 95px;
-  padding-top: 10px;
+  height: 145px;
   background-color: transparent;
   display: flex;
   align-items: center;
@@ -68,20 +67,38 @@ nav {
     box-shadow: 0 0 10px #aaa;
     background-color: $white;
     z-index: 1000;
-    .container {
+    .nav-contact {
+      color: $dark;
+      display: flex;
+      justify-content: end;
+      border-bottom: 1px solid #C4C4C4;
+      .contact {
+        // padding-top: 20px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        span {
+          padding-right: 10px;
+          font-size: 16px;
+        }
+      }
+    }
+    .nav-container {
       display: flex;
       justify-content: space-between;
       img {
+        margin-top: 10px;
         width: 100px;
-        padding-bottom: 20px;
       }
       ul {
-        margin-top: 10px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        padding-left: 0px;
         display: flex;
         list-style: none;
         li {
           a {
             color: $dark;
+            font-weight: bold;
             &:hover {
               color: $dark;
             }
@@ -94,20 +111,35 @@ nav {
     }
   }
   &.navigate {
-    .container {
+    .nav-contact {
+      color: $white;
+      display: flex;
+      justify-content: end;
+      border-bottom: 1px solid #C4C4C4;
+      .contact {
+        padding-bottom: 10px;
+        padding-right: 5px;
+        span {
+          padding-right: 10px;
+          font-size: 16px;
+        }
+      }
+    }
+    .nav-container {
       display: flex;
       justify-content: space-between;
       img {
+        margin-top: 10px;
         width: 100px;
-        padding-bottom: 20px;
       }
       ul {
-        margin-top: 10px;
+        margin-top: 15px;
         display: flex;
         list-style: none;
         li {
           a {
             color: $white;
+            font-weight: bold;
             &:hover {
               color: $white
             }
@@ -160,7 +192,8 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 .icon-apple img {
-  width: 68px;
+  width: 85px;
+  padding-left: 20px;
 }
 .window .header .burger-container #burger {
   width: 18px;
@@ -203,9 +236,37 @@ body {
 .window .header ul.menu {
   position: relative;
   display: block;
-  padding: 0px 48px 0;
+  padding-left: 20px;
   list-style: none;
 }
+
+.window .header .contact-info {
+  padding-top: 20px;
+  padding-left: 20px;
+  .text:nth-child(1) {
+    color: #ACABAB;
+    font-size: 16px;
+    font-family: $gilroyFont;
+  }
+  .text:nth-child(2) {
+    color: $dark;
+    font-size: 18px;
+    font-family: $gilroyFont;
+  }
+  .colored-line {
+    background-color: #C4C4C4;
+    padding: 1px;
+    position: relative;
+  bottom: 11px;
+  width: 258px;
+  }
+  .text:nth-child(3) {
+    color: $dark;
+    font-size: 18px;
+    font-family: $gilroyFont;
+  }
+}
+
 .window .header ul.menu li.menu-item {
   /* border-bottom: 1px solid #333; */
   margin-top: 5px;
@@ -243,10 +304,11 @@ body {
   font-weight: 100;
   text-decoration: none;
   font-size: 22px;
-  line-height: 2.35;
-  font-weight: 200;
+  line-height: 1.80;
+  font-weight: bold;
   width: 100%;
 }
+
 .window .header ul.menu li.menu-item a:active,
 .window .header ul.menu li.menu-item a:hover,
 .window .header ul.menu li.menu-item a.router-link-exact-active {
