@@ -6,8 +6,8 @@
       <div class="container">
         <div class="nav-contact">
           <div class="contact">
-            <span>info@gandtconstruction.co.uk</span>
             <span>01392 444 642</span>
+            <span>info@gandtconstruction.co.uk</span>
           </div>
         </div>
           <hr />

@@ -24,7 +24,7 @@
           <h5>Email</h5>
           <span>sales@g-and-t.co.uk</span>
           <br />
-          <span>info@gandtconstruction.co.uk </span>
+          <span class="last-span">info@gandtconstruction.co.uk </span>
         </div>
         <div class="content-social">
           <div class="social-item">
@@ -45,6 +45,10 @@
           <div class="form-content">
             <label for="name" >Name <span>*</span></label>
             <input v-model="name" id="name" type="text" >
+          </div>
+          <div class="form-content">
+            <label for="phone" >Phone <span>*</span></label>
+            <input v-model="phone" id="phone" type="text" >
           </div>
           <div class="form-content">
             <label for="email" >Email <span>*</span></label>
@@ -85,6 +89,7 @@ export default {
   data () {
     return {
       name: '',
+      phone: '',
       email: '',
       subject: '',
       about: '',
@@ -95,6 +100,7 @@ export default {
     async onSubmit  () {
       const errorText = 'Fill every filed'
       if (!this.name) return this.errorMsg = errorText
+      if (!this.phone) return this.errorMsg = errorText
       if (!this.email) return this.errorMsg = errorText
       if (!this.validEmail(this.email)) return this.errorMsg = 'Add a valid email'
       if (!this.subject) return this.errorMsg = errorText
@@ -107,6 +113,7 @@ export default {
       // })
       let data = {
         name: this.name,
+        phone: this.phone,
         email: this.email,
         subject: this.subject,
         message: this.about

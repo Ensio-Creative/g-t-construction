@@ -20,6 +20,9 @@
         span {
           font-size: 16px;
         }
+        last-span {
+          margin-bottom: 10px;
+        }
       }
       .content-social {
         margin-top: 20px;
@@ -45,7 +48,7 @@
   }
   .contact-item:last-child {
     background-color: $gray;
-    height: 109vh;
+    height: 125vh;
     .content {
       margin: auto;
       // padding-top: 60px;
@@ -95,19 +98,19 @@
 @media (min-width: 1000px) {
   .contact {
     .contact-item:first-child {
-      height: 130vh;
+      height: 150vh;
       p {
-        font-size: 24px;
+        font-size: 20px;
       }
       span {
-        font-size: 24px;
+        font-size: 20px;
       }
       .content {
         padding-top: 90px;
       }
     }
     .contact-item:last-child {
-      height: 130vh;
+      height: 150vh;
       .content {
         width: 480px;
         padding-top: 90px;
@@ -123,9 +126,9 @@
     }
   }
   .contact .contact-item .content .content-item p {
-    font-size: 24px;
+    font-size: 18px;
 }
 .contact .contact-item .content .content-item span {
-  font-size: 24px;
+  font-size: 18px;
 }
 }
