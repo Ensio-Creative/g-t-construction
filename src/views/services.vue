@@ -8,7 +8,7 @@
 <section class="side-msg">
   <div class="side-message">
     <div class="container">
-    <p>G&T construction, our services include new build, refurbishment, and fit-out projects with a particular specialism in the construction of residential, industrial, commercial, retail, and educational facilities.</p>
+    <p>At G&T construction, our services include new build, refurbishment, and fit-out projects with a particular specialism in the construction of residential, industrial, commercial, retail, and educational facilities.</p>
   </div>
   </div>
 </section>
