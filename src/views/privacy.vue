@@ -1,7 +1,7 @@
 <template>
 <section class="privacy">
-  <div class="container">
-    <h2>Privacy & Cookie Policy</h2>
+  <div class="content">
+    <h1>Privacy & Cookie Policy</h1>
   </div>
 </section>
 <section class="container my-5">
@@ -223,14 +223,35 @@ import Footer from '../components/common/Footer.vue'
 
 <style lang="scss" scoped>
 .privacy {
-  background-color: #000;
-  height: 60vh;
+  background: #000;
+  height: 40vh;
   display: flex;
   align-items: center;
-  h2 {
-    color: #fff;
-    margin-top: 70px;
+  color: #fff;
+  .content {
+    width: 350px;
+    margin: auto;
+    height: 4vh;
+    h1 {
+      text-align: center;
+      font-size: 40px;
+    font-weight: bold;
+    }
   }
+}
+
+@media (min-width: 1000px) {
+  .privacy {
+    height: 80vh;
+  .content {
+    width: 653px;
+    margin: auto;
+    height: 20vh;
+    h1 {
+      font-size: 80px;
+    }
+  }
+}
 }
 
 p {
