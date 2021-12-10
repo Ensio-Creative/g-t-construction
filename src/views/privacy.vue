@@ -138,7 +138,7 @@ In certain circumstances, we also use your personal data only to the extent requ
   </ul>
   <p>Otherwise, we securely erase your personal data from our systems when it is no longer needed.</p>
 </section>
-<section class="container my-5">
+<!-- <section class="container my-5">
   <h2>8. Your rights</h2>
   <p>You have the following rights regarding your personal data:</p>
   <table class="table">
@@ -197,13 +197,13 @@ In certain circumstances, we also use your personal data only to the extent requ
     </tr>
   </tbody>
 </table>
-</section>
+</section> -->
 <section class="container my-5">
-  <h2>9. Links to other websites</h2>
-  <p>Our website may contain hyperlinks to websites owned and operated by third parties. This Privacy Policy does not apply to those other websites. We encourage you to read the privacy statements on the other websites you visit, as they will govern the use of any personal data you provide when visiting those websites. We do not accept any responsibility or liability for the privacy practices of such third party websites and your use of such websites is at your own risk.</p>
+  <h2>8. How to contact us</h2>
+  <p>If you would like to exercise your data protection rights or if you are unhappy with how we have handled your personal data, please feel free to contact us by using the details set out on our Site.</p>
 </section>
 <section class="container my-5 pb-5">
-  <h2>10. Changes to this Privacy Policy</h2>
+  <h2>9. Changes to this Privacy Policy</h2>
   <p>This Privacy Policy was last updated on 9 Dec 2021.
 
 This Privacy Policy may be updated from time to time, so you may want to check it each time you provide personal data to us.</p>
