@@ -28,6 +28,17 @@
       }
     }
   }
+  .legal-images {
+    margin-top: 20px;
+    .legal-item {
+      width: 125px;
+      padding-right: 10px;
+      height: 50px;
+    }
+    .legal-item:nth-child(3) {
+      width: 66px;
+    }
+  }
   ul {
     padding-left: 0px;
     li {

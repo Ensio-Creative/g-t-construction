@@ -16,7 +16,7 @@
         </li> -->
       </ul>
     </div>
-    <div class="col-12 col-md-3 footer-item">
+    <div class="col-12 col-md-2 footer-item">
       <h4>Services</h4>
       <ul>
         <li
@@ -36,7 +36,7 @@
         </li>
       </ul>
     </div>
-    <div class="col-12 col-md-3 footer-item">
+    <div class="col-12 col-md-4 footer-item">
       <h4>Follow us</h4>
       <div class="content-social">
           <div class="social-item">
@@ -47,6 +47,11 @@
           <a href="https://www.linkedin.com/company/gandtconstructionuk" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
+    <div class="legal-images">
+      <img class="legal-item" src="/img/alcumus 1.png" alt="img-1">
+      <img class="legal-item" src="/img/niceic 1.png" alt="img-1">
+      <img class="legal-item" src="/img/safe-contractor 1.png" alt="img-1">
+    </div>
     </div>
   </div>
   <div class=" copyright mt-5">
