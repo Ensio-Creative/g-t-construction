@@ -48,9 +48,9 @@
           </div>
         </div>
     <div class="legal-images">
-      <img class="legal-item" src="/img/alcumus 1.png" alt="img-1">
-      <img class="legal-item" src="/img/niceic 1.png" alt="img-1">
-      <img class="legal-item" src="/img/safe-contractor 1.png" alt="img-1">
+      <img class="legal-item" src="/img/alcumus.png" alt="img-1">
+      <img class="legal-item" src="/img/niceic.png" alt="img-1">
+      <img class="legal-item" src="/img/safe-contractor.png" alt="img-1">
     </div>
     </div>
   </div>

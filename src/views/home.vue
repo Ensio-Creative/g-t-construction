@@ -37,7 +37,7 @@
       <div class="content">
         <p class="title">OUR SERVICES</p>
         <h2>Capabilities</h2>
-        <p class="text">At G&T Construction we offer creative pricing, quality delivery and efficient service. </p>
+        <p class="text">At G&T Construction we offer competitive pricing, quality delivery and efficient service. </p>
           <div class="row ">
           <div class="col-12 col-md-4 service-item">
             <div @click="$router.push('/services')" class="new-bg">
