@@ -13,8 +13,8 @@
       <div class="content">
         <div class="content-item">
           <h5>Head Office</h5>
-          <span>G&T Services (SW) Ltd</span>
-          <p>3 Revill Court, Exeter Airport Business Park, Exeter, Devon EX5 2UL</p>
+          <!-- <span>G&T Services (SW) Ltd</span> -->
+          <p>6 Gower Drive, Bedford MK40 4PZ </p>
         </div>
         <div class="content-item">
           <h5>Phone</h5>
@@ -22,9 +22,9 @@
         </div>
         <div class="content-item pb-3">
           <h5>Email</h5>
-          <span>sales@g-and-t.co.uk</span>
+          <!-- <span>sales@g-and-t.co.uk</span> -->
           <br />
-          <span class="last-span">info@gandtconstruction.co.uk </span>
+          <span class="last-span">info@integrityprojects.biz</span>
         </div>
         <div class="content-social">
           <div class="social-item">
@@ -70,7 +70,8 @@
   </div>
 </section>
 <section >
-  <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d990.7168668243253!2d-3.410602552495614!3d50.72999978397932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s3%20Revill%20Court%2C%20Exeter%20Airport%20Business%20Park%2C%20Exeter%2C%20Devon%20EX5%202UL!5e0!3m2!1sen!2sng!4v1638732999056!5m2!1sen!2sng" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d990.7168668243253!2d-3.410602552495614!3d50.72999978397932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s3%20Revill%20Court%2C%20Exeter%20Airport%20Business%20Park%2C%20Exeter%2C%20Devon%20EX5%202UL!5e0!3m2!1sen!2sng!4v1638732999056!5m2!1sen!2sng" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2448.6111905866082!2d-0.5087347845131399!3d52.14139377974428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877b118a74ad4f1%3A0x6858001716d86544!2s6%20Gower%20Dr%2C%20Biddenham%2C%20Bedford%20MK40%204PZ%2C%20UK!5e0!3m2!1sen!2sng!4v1643594866108!5m2!1sen!2sng" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
 <Footer />
 </template>

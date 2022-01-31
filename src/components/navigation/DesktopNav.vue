@@ -7,7 +7,7 @@
         <div class="nav-contact">
           <div class="contact">
             <span>01392 444 642</span>
-            <span>info@gandtconstruction.co.uk</span>
+            <span>info@integrityprojects.biz</span>
           </div>
         </div>
           <hr />

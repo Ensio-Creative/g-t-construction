@@ -20,36 +20,35 @@
         <div class="sector-content">
           <div class="img-1"></div>
           <h3>Residential</h3>
-          <p>At G&T construction, we work on a mix of new build, refurbishment and conversions for private clients, developers, and public sector clients. The Residential sector is wide-ranging and we can provide services 
-to private clients to major residential led mixed-use developments. Our ethos is to always give our clients most cost-effective service in a sustainable manner. </p>
+          <p>At Integrity Projects, we work on a mix of new build, refurbishment and conversions for private clients, developers, and public sector clients. The Residential sector is wide- ranging and we can provide services to both private domestic clients and major residential led mixed-use developments. </p>
         </div>
       </div>
       <div class="col-12 col-md-4 sector-item">
         <div class="sector-content">
           <div class="img-2"></div>
           <h3>Industrial & Distribution</h3>
-          <p>At G&T Construction we have developed capability for delivery of industrial and logistics facilities. We understand the commercial need to produce sustainable and high-quality structures, often at speed, creating lasting value for Clients. We collaborate with our customers, supply chain and key stakeholders to drive efficiency and provide high quality facility.</p>
+          <p>At Integrity Projects we have developed capability for delivery of industrial and logistics facilities. We understand the commercial need to produce sustainable and high-quality structures, often at speed, creating lasting value for Clients. We collaborate with our customers, supply chain and key stakeholders to drive efficiency and provide high quality facility.</p>
         </div>
       </div>
       <div class="col-12 col-md-4 sector-item">
         <div class="sector-content">
           <div class="img-3"></div>
           <h3>Commercial</h3>
-          <p>G&T Construction works with commercial businesses to create customer-friendly facilities. We work with our specialist supply chain to ensure that your facilities are designed and built to the optimum specification, safely and sustainably.  </p>
+          <p>Integrity Projects works with commercial businesses to create customer-friendly facilities. We work with our specialist supply chain to ensure that your facilities are designed and built to the optimum specification, safely and sustainably. </p>
         </div>
       </div>
       <div class="col-12 col-md-4 sector-item">
         <div class="sector-content">
           <div class="img-4"></div>
           <h3>Retail & Leisure</h3>
-          <p>The construction of retail and leisure facilities encompasses a wide range of aesthetic treatments and construction methodologies perfectly suited to G&T Construction flexible approach and wide-ranging experience. We offer a collaborative approach through early design involvement, engineering expertise and integrated delivery to deliver high quality building solution. </p>
+          <p>The construction of retail and leisure facilities encompasses a wide range of aesthetic treatments and construction methodologies perfectly suited to Integrity Projects flexible approach and wide-ranging experience. We offer a collaborative approach through early design involvement, engineering expertise and integrated delivery to deliver high quality building solution.</p>
         </div>
       </div>
       <div class="col-12 col-md-4 sector-item">
         <div class="sector-content">
           <div class="img-5"></div>
           <h3>Education</h3>
-          <p>The team at G&T Construction has over 10years expertise in the delivery of various education projects, including nursery, primary and secondary schools as well as refurbishments to create improvement of sustainable learning environments. Work in this sector is often driven by stringent time constraints, and we work collaboratively with end users to implement solutions that optimise cost, drive efficiency, and enhance outcomes.</p>
+          <p>The team at Integrity Projects has over 10years expertise in the delivery of various education projects, including nursery, primary and secondary schools to create improvement of sustainable learning environments. Work in this sector is often driven by stringent time constraints, and we work collaboratively with end users to implement solutions that optimise cost, drive efficiency, and enhance outcomes.</p>
         </div>
       </div>
     </div>

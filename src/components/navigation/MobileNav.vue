@@ -41,7 +41,7 @@
       </ul>
       <div class="contact-info">
         <p class="text">Get in touch</p>
-        <p class="text">info@gandtconstruction.co.uk</p>
+        <p class="text">info@integrityprojects.biz</p>
         <div class="colored-line"></div>
         <p class="text">01392 444 642</p>
       </div>
