@@ -55,7 +55,7 @@
     </div>
   </div>
   <div class=" copyright mt-5">
-      <p class="copy-items">&copy; {{ new Date().getFullYear() }} G&T Construction.</p>
+      <p class="copy-items">&copy; {{ new Date().getFullYear() }} Integrity Projects.</p>
       <p class="copy-items">Site Credit: <strong> <a href="https://ensiocreative.com" target="_blank" rel="noopener noreferrer">Ensio Creative</a> </strong></p>
     </div>
   </div>

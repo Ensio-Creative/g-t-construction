@@ -5,14 +5,14 @@
       <h2>Whatever you imagine, we build for you</h2>
       <p class="first-hero-text">We offer a full design and build service or work in partnership with your existing project team to deliver your building solution.</p>
       <button @click="$router.push('/sectors')" class="btn-yellow">Learn more <img src="/img/Vector5.svg" alt=""> </button>
-      <!-- <p>Residential | Industrial & Distribution | Commercial | Retail & Leisure | Education</p> -->
+      <p class="pt-4">Residential | Industrial & Distribution | Commercial | Retail & Leisure | Education</p>
       </div>
     </div>
   </section>
   <section class="yellow-bg">
     <div class="container">
       <div class="content">
-        <p>G&T Construction is a regional contractor specialising in the creation of high-quality building projects to a wide range of Clients and businesses in the Southwest of England. Working as a main Contractor, we specialise in the construction of residential, commercial, retail, industrial and education projects.</p>
+        <p>Integrity Projects Limited is a regional contractor specialising in the creation of high-quality building projects to a wide range of Clients. We cover the We cover the counties of Hertfordshire, Bedfordshire, Buckinghamshire, Northamptonshire, and Cambridgeshire. Working as a main Contractor, we specialise in the construction of residential, commercial, retail, industrial and education projects.</p>
       </div>
     </div>
   </section>
@@ -23,7 +23,7 @@
           <div class="content">
             <p class="title">ABOUT US</p>
           <h2>Who we are</h2>
-          <p class="text-content">Established in 1990, G&T Construction has evolved from a combination of its electrical, engineering and design consultancy roots to a main contracting business with capability in delivering a wide range of construction projects across the Southwest of England. </p>
+          <p class="text-content">Established in 2007 and based in the East of England, Integrity Projects has evolved from its architectural and design consultancy roots to a main contracting business with capability in delivering a wide range of construction projects across East of England.</p>
         <button @click="$router.push('/about-us')" class="btn-yellow">Learn more <img src="/img/Vector5.svg" alt=""></button>
         </div>
           </div>
@@ -37,7 +37,7 @@
       <div class="content">
         <p class="title">OUR SERVICES</p>
         <h2>Capabilities</h2>
-        <p class="text">At G&T Construction we offer competitive pricing, quality delivery and efficient service. </p>
+        <p class="text">At Integrity Projects, we offer creative pricing, quality delivery and efficient service.</p>
           <div class="row ">
           <div class="col-12 col-md-4 service-item">
             <div @click="$router.push('/services')" class="new-bg">

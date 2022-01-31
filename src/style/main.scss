@@ -1,5 +1,5 @@
 $white: #fff;
-$yellow: #FFDD00;
+$theme-color: #F60114;
 $dark: #000;
 $gray: #F1F2F2;
 
@@ -32,10 +32,11 @@ a {
 }
 .btn-yellow {
   font-family: $raleFont;
-  background-color: $yellow;
+  background-color: $theme-color;
   border: 0px;
   padding: 10px 30px 10px 25px;
   margin-bottom: 30px;
+  color: $white;
   img {
     width: 15px;
   }

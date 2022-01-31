@@ -7,7 +7,7 @@
   .item:first-child {
     display: flex;
     align-items: center;
-    background-color: $yellow;
+    background-color: $theme-color;
     .content {
       h2 {
         font-size: 27px;
@@ -63,7 +63,7 @@
       height: 730px;
     }
     .item:first-child {
-      background-color: $yellow;
+      background-color: $theme-color;
       .content {
         width: 441px;
         margin: auto;
