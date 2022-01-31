@@ -4,6 +4,7 @@
   .side-message {
     background-color: $theme-color;
     padding: 38px;
+    color: $white;
   }
 }
 
@@ -117,6 +118,11 @@
           font-size: 14px;
           &:focus {
             outline: none;
+          }
+          img {
+            width: 34px;
+            position: revert;
+            padding-left: 4px;
           }
         }
       }

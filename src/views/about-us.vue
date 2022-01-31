@@ -11,7 +11,7 @@
       <div class="col-12 col-md-6 item">
         <div class="content">
           <h2>Who we are</h2>
-          <p>Established in 1990, G&T Construction has evolved from a combination of its electrical, engineering and design consultancy roots to a main contracting business with capability in delivering a wide range of construction projects across the Southwest of England. We have strong roots from our origin in electrical and specialist engineering combined with experience of providing design and construction management consultancy in the UK for over 30 years.</p>
+          <p>Established in 2007 and based in the East of England, Integrity Projects has evolved from its architectural and design consultancy roots to a main contracting business with capability in delivering a wide range of construction projects across East of England. We have a combined experience of providing design and construction management consultancy in the UK for over 15 years.</p>
         </div>
       </div>
       <div class="col-12 col-md-6 item"></div>

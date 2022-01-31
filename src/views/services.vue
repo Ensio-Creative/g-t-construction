@@ -8,7 +8,7 @@
 <section class="side-msg">
   <div class="side-message">
     <div class="container">
-    <p>At G&T construction, our services include new build, expansion, refurbishment, and fit-out projects with a particular specialism in the construction of residential, industrial, commercial, retail, and educational facilities.</p>
+    <p>At Integrity Projects, our services include new build, expansion, refurbishment, and fit-out projects with a particular specialism in the construction of residential, industrial, commercial, retail, and educational facilities.</p>
   </div>
   </div>
 </section>
@@ -27,7 +27,7 @@
             </div>
             <div class="title-text">
               <p>Newbuild</p>
-              <button @click="openNewbuild(newBuild)" class="learn-btn">Learn more</button>
+              <button @click="openNewbuild(newBuild)" class="learn-btn">Learn more <img src="/img/Arrow1.svg" alt=""> </button>
             </div>
           </div>
           <div class="col-12 col-md-4 service-item mt-5">
@@ -40,7 +40,7 @@
             </div>
               <div class="title-text">
                 <p>Expansion/Extension</p>
-                <button @click="openExpansion(expansion)" class="learn-btn">Learn more</button>
+                <button @click="openExpansion(expansion)" class="learn-btn">Learn more <img src="/img/Arrow1.svg" alt=""> </button>
               </div>
           </div>
           <div class="col-12 col-md-4 service-item mt-5">
@@ -53,7 +53,7 @@
             </div>
               <div class="title-text">
                 <p>Refurbishment</p>
-                <button @click="openRefub(refub)" class="learn-btn">Learn more</button>
+                <button @click="openRefub(refub)" class="learn-btn">Learn more <img src="/img/Arrow1.svg" alt=""> </button>
               </div>
           </div>
           <div class="col-12 col-md-4 service-item mt-5">
@@ -66,7 +66,7 @@
             </div>
               <div class="title-text">
                 <p>Fit-out</p>
-                <button @click="openFitout(fitOut)" class="learn-btn">Learn more</button>
+                <button @click="openFitout(fitOut)" class="learn-btn">Learn more <img src="/img/Arrow1.svg" alt=""> </button>
               </div>
           </div>
         </div>
