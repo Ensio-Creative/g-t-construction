@@ -21,7 +21,7 @@
             <div class="new-bg">
               <div v-if="newBuild" class="read-more">
                 <div class="thumbnail-1"></div>
-                <p>G&T Construction works closely with clients, developers, and architects to create purpose-built facilities that meet the requirements of scheme aesthetics, function, and budget.</p>
+                <p>At Integrity Projects, we work closely with clients, developers, and architects to create purpose-built facilities that meet the requirements of scheme aesthetics, function, and budget.</p>
               </div>
                 <img v-if="newBuild" src="/img/Vector42.svg" alt="">
             </div>
@@ -47,7 +47,7 @@
             <div class="refurbishment-bg">
                 <div v-if="refub" class="read-more">
                   <div class="thumbnail-3"></div>
-                  <p>G&T Construction carries out a variety of refurbishment works to warehouse and office space, from aesthetic updates to more significant renovation works.</p>
+                  <p>Integrity Projects have the capability to undertake refurbishment works to warehouse and office space, from aesthetic updates to more significant renovation works.</p>
                 </div>
                 <img v-if="refub"  src="/img/Vector42.svg" alt="">
             </div>
@@ -60,7 +60,7 @@
             <div class="fit-out-bg">
                 <div v-if="fitOut" class="read-more">
                   <div class="thumbnail-4"></div>
-                  <p>We can undertake fit-out works to a variety of existing commercial and industrial facilities, from office spaces to retail outlets.</p>
+                  <p>We can undertake fit-out works to a variety of existing office spaces, commercial and industrial facilities.</p>
                 </div>
                 <img v-if="fitOut" src="/img/Vector42.svg" alt="">
             </div>
