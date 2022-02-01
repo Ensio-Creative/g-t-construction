@@ -12,7 +12,7 @@
   <section class="yellow-bg">
     <div class="container">
       <div class="content">
-        <p>Integrity Projects Limited is a regional contractor specialising in the creation of high-quality building projects to a wide range of Clients. We cover the We cover the counties of Hertfordshire, Bedfordshire, Buckinghamshire, Northamptonshire, and Cambridgeshire. Working as a main Contractor, we specialise in the construction of residential, commercial, retail, industrial and education projects.</p>
+        <p>Integrity Projects is a regional contractor specialising in the creation of high-quality building projects to a wide range of Clients. We cover the counties of Hertfordshire, Bedfordshire, Buckinghamshire, Northamptonshire, and Cambridgeshire. Working as a main Contractor, we specialise in the construction of residential, commercial, retail, industrial and education projects.</p>
       </div>
     </div>
   </section>
