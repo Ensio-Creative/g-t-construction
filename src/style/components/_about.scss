@@ -1,6 +1,7 @@
 
 .who-we-are{
   margin-bottom: 80px;
+  color: $white;
   .item {
     height: 410px;
   }
@@ -59,7 +60,6 @@
 @media (min-width: 1000px) {
   .who-we-are{
     margin-top: 80px;
-    color: $white;
     .item {
       height: 730px;
     }

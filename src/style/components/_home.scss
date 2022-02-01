@@ -24,14 +24,14 @@
 
 .yellow-bg {
   background-color: $theme-color;
-  height: 360px;
+  height: 405px;
   font-size: 20px;
   text-align: center;
   color: $white;
   .container{
     display: flex;
     align-items: center;
-    height: 360px;
+    height: 420px;
   }
 }
 
@@ -46,10 +46,14 @@
       h2 {
         font-size: 27px;
         font-weight: bold;
+        color: $blue;
       }
       .text-content{
         font-size: 16px;
         padding-bottom: 10px;
+      }
+      .btn-button {
+        background-color: $blue;
       }
     }
   }
@@ -72,6 +76,7 @@
       h2 {
         font-size: 27px;
         font-weight: bold;
+        color: $blue;
       }
       .text {
         font-size: 16px;
@@ -85,6 +90,7 @@
         font-size: 24px;
         font-weight: bold;
         cursor: pointer;
+        color: $blue;
       }
       .new-bg {
         background: url('/img/Pexels\ Photo\ by\ Max\ Vakhtbovych.png');
@@ -168,7 +174,7 @@
     .about-item:first-child {
       height: 500px;
       .content {
-        width: 386px;
+        width: 470px;
         margin: auto;
         h2 {
           font-weight: 800;

@@ -4,7 +4,7 @@
       <div class="content">
       <h2>Whatever you imagine, we build for you</h2>
       <p class="first-hero-text">We offer a full design and build service or work in partnership with your existing project team to deliver your building solution.</p>
-      <button @click="$router.push('/sectors')" class="btn-yellow">Learn more <img src="/img/Vector5.svg" alt=""> </button>
+      <button @click="$router.push('/sectors')" class="btn-button">Learn more <img src="/img/Vector5.svg" alt=""> </button>
       <p class="pt-4">Residential | Industrial & Distribution | Commercial | Retail & Leisure | Education</p>
       </div>
     </div>
@@ -22,9 +22,9 @@
         <div class="col-12 col-md-6 about-item">
           <div class="content">
             <p class="title">ABOUT US</p>
-          <h2>Who we are</h2>
+          <h2>Explore Integrity Projects</h2>
           <p class="text-content">Established in 2007 and based in the East of England, Integrity Projects has evolved from its architectural and design consultancy roots to a main contracting business with capability in delivering a wide range of construction projects across East of England.</p>
-        <button @click="$router.push('/about-us')" class="btn-yellow">Learn more <img src="/img/Vector5.svg" alt=""></button>
+        <button @click="$router.push('/about-us')" class="btn-button">Learn more <img src="/img/Vector5.svg" alt=""></button>
         </div>
           </div>
         <div class="col-12 col-md-6 about-item"></div>

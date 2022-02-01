@@ -2,6 +2,7 @@ $white: #fff;
 $theme-color: #F60114;
 $dark: #000;
 $gray: #F1F2F2;
+$blue: #0C0F68;
 
 
 @font-face {
@@ -30,7 +31,7 @@ a {
     text-decoration: none;
   }
 }
-.btn-yellow {
+.btn-button {
   font-family: $raleFont;
   background-color: $theme-color;
   border: 0px;
