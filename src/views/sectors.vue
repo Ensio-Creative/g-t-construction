@@ -8,7 +8,7 @@
 <section class="side-msg">
   <div class="side-message">
     <div class="container">
-    <p>G&T Construction operates across a range of sectors including residential, industrial, commercial, retail and educational projects.</p>
+    <p>Integrity Projects operates across a range of sectors including residential, industrial, commercial, retail and educational projects.</p>
   </div>
   </div>
 </section>
