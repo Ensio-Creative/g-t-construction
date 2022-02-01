@@ -40,11 +40,11 @@
       <h4>Follow us</h4>
       <div class="content-social">
           <div class="social-item">
-            <a href="http://www.facebook.com/GT-Construction-104504248754439/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://business.facebook.com/Integrity-Projects-Limited-110559268204169/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
           </div>
           <div class="social-item">
 
-          <a href="https://www.linkedin.com/company/gandtconstructionuk" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.linkedin.com/company/integrity-projects-limited-biz" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
     <div class="legal-images">
