@@ -74,7 +74,7 @@ nav {
     background-color: $white;
     z-index: 1000;
     .nav-contact {
-      color: $dark;
+      color: $blue;
       display: flex;
       justify-content: end;
       .contact {
@@ -92,7 +92,7 @@ nav {
       justify-content: space-between;
       img {
         margin-top: 10px;
-        width: 100px;
+        width: 157px;
       }
       ul {
         margin-top: 15px;
@@ -102,13 +102,13 @@ nav {
         list-style: none;
         li {
           a {
-            color: $dark;
+            color: $blue;
             font-weight: bold;
             &:hover {
-              color: $dark;
+              color: $blue;
             }
             &.router-link-exact-active {
-              color: $dark;
+              color: $blue;
             }
           }
         }
@@ -140,7 +140,7 @@ nav {
       justify-content: space-between;
       img {
         margin-top: 10px;
-        width: 100px;
+        width: 157px;
       }
       ul {
         margin-top: 15px;
@@ -202,8 +202,9 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 .icon-apple img {
-  width: 85px;
+  width: 150px;
   padding-left: 20px;
+  padding-top: 10px;
 }
 .window .header .burger-container #burger {
   width: 18px;
@@ -259,8 +260,8 @@ body {
     font-size: 16px;
     font-family: $gilroyFont;
   }
-  .text:nth-child(2) {
-    color: $dark;
+  .text {
+    color: $blue;
     font-size: 18px;
     font-family: $gilroyFont;
   }
@@ -271,11 +272,6 @@ body {
     bottom: 11px;
     width: 258px;
     opacity: 40%;
-  }
-  .text:nth-child(3) {
-    color: $dark;
-    font-size: 18px;
-    font-family: $gilroyFont;
   }
 }
 
@@ -311,7 +307,7 @@ body {
 .window .header ul.menu li.menu-item a {
   display: block;
   position: relative;
-  color: #000;
+  color: $blue;
   font-family: $gilroyFont !important;
   font-weight: 100;
   text-decoration: none;
@@ -324,7 +320,7 @@ body {
 .window .header ul.menu li.menu-item a:active,
 .window .header ul.menu li.menu-item a:hover,
 .window .header ul.menu li.menu-item a.router-link-exact-active {
-  color: $dark;
+  color: $blue;
 }
 .window .header.menu-opened {
   height: 100%;

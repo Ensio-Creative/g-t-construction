@@ -60,7 +60,7 @@
 <script>
 import Footer from '../components/common/Footer.vue';
 export default {
-  title: 'G&T Construction - Sectors',
+  title: 'Integrity projects - Sectors',
   components: { Footer }
 }
 </script>

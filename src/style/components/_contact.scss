@@ -13,6 +13,7 @@
         h5 {
           font-size: 18px;
           font-weight: bold;
+          color: $blue;
         }
         p {
           font-size: 16px;
@@ -30,7 +31,7 @@
         .social-item {
           width: 46px;
           height: 46px;
-          background-color: $dark;
+          background-color: $blue;
           border-radius: 50%;
           padding: 11px 15px;
           font-size: 19px;
@@ -55,6 +56,7 @@
       h5 {
         font-size: 27px;
         font-weight: bold;
+        color: $blue;
       }
       .form-content {
         padding-top: 20px;
@@ -88,7 +90,7 @@
       .submit {
         margin-top: 20px;
         padding: 10px 30px 10px 30px;
-        background-color: $theme-color;
+        background-color: $blue;
         border: 0px;
         color: $white;
       }

@@ -1,7 +1,7 @@
 <template>
 <section class="footer">
   <div class="container">
-    <img src="/img/g-&-t-construction-logo-white.png" alt="">
+    <img src="/img/integrity-projects-logo-white.svg" alt="">
   <div class="row">
     <div class="col-12 col-md-3 footer-item">
       <h4>Company</h4>

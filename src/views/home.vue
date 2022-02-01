@@ -71,7 +71,7 @@
 import { useRoute } from 'vue-router';
 import Footer from '../components/common/Footer.vue';
 export default {
-  title: 'G&T Construction - Home',
+  title: 'Integrity projects - Home',
   components: { Footer },
   setup(props, ctx) {
     const router = useRoute()

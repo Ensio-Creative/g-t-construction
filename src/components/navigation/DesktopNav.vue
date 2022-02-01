@@ -15,11 +15,11 @@
           <div class="nav-brand">
             <img
               v-if="view.topOfPage"
-              src="/img/g-&-t-construction-logo-white.png" alt=""
+              src="/img/integrity-projects-logo-white.svg" alt=""
             >
             <img
               v-else
-              src="/img/g-&-t-logo.png" alt=""
+              src="/img/integrity-projects-logo.svg" alt=""
             >
         </div>
         <ul class="nav-container">

@@ -8,7 +8,7 @@
       <div class="flx-img-buger">
         <div class="icon icon-apple">
         <router-link to="/">
-            <img src="/img/g-&-t-logo.png" alt="">
+            <img src="/img/integrity-projects-logo.svg" alt="">
           </router-link>
       </div>
         <div
