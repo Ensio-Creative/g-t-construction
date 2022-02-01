@@ -21,7 +21,7 @@
       top: -21px;
       p{
         font-size: 18px;
-        color: $dark;
+        color: #818080;
         padding: 20px;
         font-weight: lighter;
       }
@@ -110,11 +110,12 @@
           font-size: 24px;
           font-weight: bold;
           margin-bottom: 0px;
+          color: $blue;
         }
         .learn-btn {
           background-color: transparent;
           border: 0px;
-          color: $dark;
+          color: #818080;
           font-size: 14px;
           &:focus {
             outline: none;
