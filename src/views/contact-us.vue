@@ -119,7 +119,7 @@ export default {
         subject: this.subject,
         message: this.about
       }
-      const response = await fetch('https://formsubmit.co/ajax/info@gandtconstruction.co.uk', {
+      const response = await fetch('https://formsubmit.co/ajax/info@integrityprojects.biz', {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         headers: {
           'Content-Type': 'application/json'
