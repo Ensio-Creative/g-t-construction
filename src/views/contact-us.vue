@@ -18,7 +18,7 @@
         </div>
         <div class="content-item">
           <h5>Phone</h5>
-          <p>01234938113</p>
+          <p>01234 938150</p>
         </div>
         <div class="content-item pb-3">
           <h5>Email</h5>

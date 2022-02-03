@@ -43,7 +43,7 @@
         <p class="text">Get in touch</p>
         <p class="text">info@integrityprojects.biz</p>
         <div class="colored-line"></div>
-        <p class="text">01234938113</p>
+        <p class="text">01234 938150</p>
       </div>
     </div>
     </div>

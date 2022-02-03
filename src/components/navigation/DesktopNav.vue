@@ -6,7 +6,7 @@
       <div class="container">
         <div class="nav-contact">
           <div class="contact">
-            <span>01234938113</span>
+            <span>01234 938150</span>
             <span>info@integrityprojects.biz</span>
           </div>
         </div>
