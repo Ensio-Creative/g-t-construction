@@ -24,24 +24,23 @@
 
 .yellow-bg {
   background-color: $theme-color;
-  height: 405px;
+  height: 520px;
   font-size: 20px;
-  text-align: center;
   color: $white;
   .container{
     display: flex;
     align-items: center;
-    height: 420px;
+    height: 540px;
   }
 }
 
 .home-about-us {
-  height: 650px;
+  height: 750px;
   .about-item:first-child {
     background-color: $gray;
     display: flex;
     align-items: center;
-    height: 365px;
+    height: 480px;
     .content {
       h2 {
         font-size: 27px;
@@ -157,6 +156,7 @@
   .yellow-bg {
     height: 500px;
     font-size: 26px;
+    text-align: center;
     .container{
       height: 500px;
       .content {
