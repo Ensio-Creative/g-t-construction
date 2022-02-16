@@ -403,6 +403,43 @@ body {
   }
 }
 
+@media (max-width: 550px)  {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .window {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  .home-about-us {
+    .content {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  .who-we-are {
+    .container {
+      padding: 0px;
+      .content {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+  }
+
+  .contact {
+    .contact-item {
+      .content {
+        padding-right: 16px;
+        padding-left: 16px;
+      }
+    }
+  }
+}
+
 @import 'components/home';
 @import 'components/footer';
 @import 'components/about';
