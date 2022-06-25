@@ -47,11 +47,11 @@
           <a href="https://www.linkedin.com/company/integrity-projects-limited-biz" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
-    <div class="legal-images">
+    <!-- <div class="legal-images">
       <img class="legal-item" src="/img/alcumus.png" alt="img-1">
       <img class="legal-item" src="/img/niceic.png" alt="img-1">
       <img class="legal-item" src="/img/safe-contractor.png" alt="img-1">
-    </div>
+    </div> -->
     </div>
   </div>
   <div class=" copyright mt-5">
