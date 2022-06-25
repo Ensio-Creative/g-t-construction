@@ -60,6 +60,11 @@
                 <p @click="$router.push('/services')">Design Deliverables</p>
               </div>
           </div>
+          <div class="btn-container">
+              <button @click="$router.push('/services')" class="btn-button">
+              Learn more <img src="/img/Arrow1.svg" alt="">
+            </button>
+          </div>
         </div>
         </div>
       </div>
@@ -97,3 +102,17 @@ export default {
 }
 </script>
 
+<style lang="scss">
+.spaces-add {
+  padding-bottom: 90px;
+}
+.home-our-services{
+  .btn-container {
+    width: 200px;
+    margin: auto;
+    .btn-button{
+      background-color: #0C0F68;
+    }
+  }
+}
+</style>

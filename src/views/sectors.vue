@@ -45,7 +45,7 @@
         </div>
       </div>
       <div class="col-12 col-md-4 sector-item">
-        <div class="sector-content">
+        <div class="sector-content mb-higt">
           <div class="img-5"></div>
           <h3>Education</h3>
           <p>Over the last decade, we have utilised our design management expertise in the delivery of various education projects, including nursery, primary and secondary schools to create improvement of sustainable learning environments. Work in this sector is often driven by stringent time constraints, and we work collaboratively with end users to implement solutions that optimise cost, drive efficiency, and enhance outcomes. </p>
@@ -85,6 +85,7 @@ export default {
     }
   }
 }
+
 @media (min-width: 1000px) {
   .bg-hero {
     height: 80vh;
