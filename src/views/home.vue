@@ -12,7 +12,7 @@
   <section class="yellow-bg">
     <div class="container">
       <div class="content">
-        <p>Integrity Projects is a regional contractor specialising in the delivery of high-quality building projects to a wide range of Clients. We cover the counties of Hertfordshire, Bedfordshire, Buckinghamshire, Northamptonshire, and Cambridgeshire. Working as a main Contractor, we specialise in the construction of residential, commercial, retail, industrial and education projects.</p>
+        <p>Integrity Projects Limited is a consultancy that provides architectural and design management services. We manage design process to deliver successful projects, irrespective of the size, scope, or location.</p>
       </div>
     </div>
   </section>
@@ -23,7 +23,7 @@
           <div class="content">
             <p class="title">ABOUT US</p>
           <h2>Explore Integrity Projects</h2>
-          <p class="text-content">Established in 2007 and based in the East of England, Integrity Projects has evolved from its architectural and design consultancy roots to a main contracting business with capability in delivering a wide range of construction projects across East of England.</p>
+          <p class="text-content">Established in 2007 and based in the East of England, Integrity Projects has its roots in architectural and design management consultancy with capability in delivering a wide range of construction projects across England.</p>
         <button @click="$router.push('/about-us')" class="btn-button">Learn more <img src="/img/Vector5.svg" alt=""></button>
         </div>
           </div>
