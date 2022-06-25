@@ -3,7 +3,7 @@
   margin-bottom: 80px;
   color: $white;
   .item {
-    height: 410px;
+    height: 650px;
   }
   .item:first-child {
     display: flex;
@@ -61,7 +61,7 @@
   .who-we-are{
     margin-top: 80px;
     .item {
-      height: 880px;
+      height: 780px;
     }
     .item:first-child {
       background-color: $theme-color;
@@ -74,14 +74,14 @@
           padding: 0px;
         }
         p {
-          font-size: 24px;
+          font-size: 20px;
           padding: 0px;
           margin-top: 20px;
         }
       }
     }
     .item:last-child {
-      height: 880px;
+      height: 780px;
     }
   }
   .images-view {
