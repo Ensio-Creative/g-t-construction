@@ -18,54 +18,54 @@
       <div class="services-content">
         <div class="row">
           <div class="col-12 col-md-4 service-item mt-5">
-            <div class="new-bg">
+            <div class="design-bg">
               <div v-if="newBuild" class="read-more">
-                <div class="thumbnail-1"></div>
-                <p>At Integrity Projects, we work closely with clients, developers, and architects to create purpose-built facilities that meet the requirements of scheme aesthetics, function, and budget.</p>
+                <!-- <div class="thumbnail-1"></div> -->
+                <p>As well as setting out project objectives, we assist the Client with setting up processes and procedures including selection of specialist consultants.  We also provide the design management plan which outlines key stakeholders and consultants including details of responsibilities, procedures, and control processes.</p>
               </div>
                 <img v-if="newBuild" src="/img/Vector42.svg" alt="">
             </div>
             <div class="title-text">
-              <p>Newbuild</p>
+              <p>Design Strategy</p>
               <button @click="openNewbuild(newBuild)" class="learn-btn">Learn more <img src="/img/Arrow1.svg" alt=""> </button>
             </div>
           </div>
           <div class="col-12 col-md-4 service-item mt-5">
             <div class="expansion-bg">
                 <div v-if="expansion" class="read-more">
-                  <div class="thumbnail-2"></div>
-                  <p>Expansion of existing facilities can be undertaken whilst they remain operational in many cases, and we work closely with our clients to ensure minimal disruption.</p>
+                  <!-- <div class="thumbnail-2"></div> -->
+                  <p>Working collaboratively with the Client and the project team, we put together programme that reflects the design process and key dates. We also provide periodic comprehensive reporting to monitor the programme.</p>
                 </div>
                 <img v-if="expansion" src="/img/Vector42.svg" alt="">
             </div>
               <div class="title-text">
-                <p>Expansion/Extension</p>
+                <p>Design Programming</p>
                 <button @click="openExpansion(expansion)" class="learn-btn">Learn more <img src="/img/Arrow1.svg" alt=""> </button>
               </div>
           </div>
           <div class="col-12 col-md-4 service-item mt-5">
             <div class="refurbishment-bg">
                 <div v-if="refub" class="read-more">
-                  <div class="thumbnail-3"></div>
-                  <p>Integrity Projects have the capability to undertake refurbishment works to warehouse and office space, from aesthetic updates to more significant renovation works.</p>
+                  <!-- <div class="thumbnail-3"></div> -->
+                  <p>We provide coordinated information release schedule with key dates and measurable list of deliverables including approval mechanism to be adopted.</p>
                 </div>
                 <img v-if="refub"  src="/img/Vector42.svg" alt="">
             </div>
               <div class="title-text">
-                <p>Refurbishment</p>
+                <p>Design Deliverables</p>
                 <button @click="openRefub(refub)" class="learn-btn">Learn more <img src="/img/Arrow1.svg" alt=""> </button>
               </div>
           </div>
           <div class="col-12 col-md-4 service-item mt-5">
             <div class="fit-out-bg">
                 <div v-if="fitOut" class="read-more">
-                  <div class="thumbnail-4"></div>
-                  <p>We can undertake fit-out works to a variety of existing office spaces, commercial and industrial facilities.</p>
+                  <!-- <div class="thumbnail-4"></div> -->
+                  <p>In a collaborative approach via meetings and workshops, we facilitate the management procedures and high level of multidisciplinary coordination of the design required for delivery by the design team.</p>
                 </div>
                 <img v-if="fitOut" src="/img/Vector42.svg" alt="">
             </div>
               <div class="title-text">
-                <p>Fit-out</p>
+                <p>Design Co-ordination</p>
                 <button @click="openFitout(fitOut)" class="learn-btn">Learn more <img src="/img/Arrow1.svg" alt=""> </button>
               </div>
           </div>

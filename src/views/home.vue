@@ -40,24 +40,24 @@
         <p class="text">At Integrity Projects, we offer creative pricing, quality delivery and efficient service.</p>
           <div class="row ">
           <div class="col-12 col-md-4 service-item">
-            <div @click="$router.push('/services')" class="new-bg">
+            <div @click="$router.push('/services')" class="design-bg">
             </div>
               <div class="title-text">
-                <p @click="$router.push('/services')">Newbuild</p>
+                <p @click="$router.push('/services')">Design Strategy</p>
               </div>
           </div>
           <div class="col-12 col-md-4 service-item">
-            <div @click="$router.push('/services')" class="expansion-bg">
+            <div @click="$router.push('/services')" class="programming-bg">
             </div>
               <div class="title-text">
-                <p @click="$router.push('/services')">Expansion/Extension</p>
+                <p @click="$router.push('/services')">Design Programming</p>
               </div>
           </div>
           <div class="col-12 col-md-4 service-item">
-            <div @click="$router.push('/services')" class="refurbishment-bg">
+            <div @click="$router.push('/services')" class="deliverables-bg">
             </div>
               <div class="title-text">
-                <p @click="$router.push('/services')">Refurbishment</p>
+                <p @click="$router.push('/services')">Design Deliverables</p>
               </div>
           </div>
         </div>

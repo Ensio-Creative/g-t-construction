@@ -61,7 +61,7 @@
   .who-we-are{
     margin-top: 80px;
     .item {
-      height: 730px;
+      height: 880px;
     }
     .item:first-child {
       background-color: $theme-color;
@@ -70,17 +70,18 @@
         margin: auto;
         h2 {
           font-weight: 800;
-          font-size: 40px;
+          font-size: 32px;
           padding: 0px;
         }
         p {
           font-size: 24px;
           padding: 0px;
+          margin-top: 20px;
         }
       }
     }
     .item:last-child {
-      height: 730px;
+      height: 880px;
     }
   }
   .images-view {

@@ -12,7 +12,7 @@
     <div class="col-12 col-md-5 contact-item">
       <div class="content">
         <div class="content-item">
-          <h5>Head Office</h5>
+          <h5>Office Address</h5>
           <!-- <span>G&T Services (SW) Ltd</span> -->
           <p>6 Gower Drive, Bedford MK40 4PZ </p>
         </div>

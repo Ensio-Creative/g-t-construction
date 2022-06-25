@@ -10,8 +10,16 @@
     <div class="row">
       <div class="col-12 col-md-6 item">
         <div class="content">
-          <h2>Who we are</h2>
-          <p>Established in 2007 and based in the East of England, Integrity Projects has evolved from its architectural and design consultancy roots to a main contracting business with capability in delivering a wide range of construction projects across East of England. We have a combined experience of providing design and construction management consultancy in the UK for over 15 years.</p>
+          <h2>We are Integrity Projects</h2>
+          <p>
+            At Integrity Projects, we understand that the management and coordination of design for complex, multi-disciplinary projects present several significant challenges. Our Design Management service is tailored specifically to meet these challenges and enable our clients and their designers to deliver successful projects.
+          </p>
+          <p>
+            We have a wealth of in-house design resource and in partnership with supply chain partners, we can support our clients in a cost-effective manner to facilitate the delivery of coordinated design for their construction projects.
+          </p>
+          <p>
+             What sets us apart is our design and build experience, coupled with our desire to build lasting relationships with our clients and contacts in the construction industry. 
+          </p>
         </div>
       </div>
       <div class="col-12 col-md-6 item"></div>
