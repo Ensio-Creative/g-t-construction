@@ -53,7 +53,7 @@ export default {
 
 <style lang="scss" scoped>
 .bg-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/pexels-mikael-blomkvist-8961401\ 1.png') !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/about-header.png') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;

@@ -8,7 +8,7 @@
 <section class="side-msg">
   <div class="side-message">
     <div class="container">
-    <p>At Integrity Projects, our services include new build, expansion, refurbishment, and fit-out projects with a particular specialism in the construction of residential, industrial, commercial, retail, and educational facilities.</p>
+    <p>At Integrity Projects, we offer the full range of design management services.</p>
   </div>
   </div>
 </section>
@@ -133,7 +133,7 @@ export default {
 
 <style lang="scss" scoped>
 .bg-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/Pexels Photo by Los Muertos Crew.png') !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url('/img/service-img-header.png') !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
