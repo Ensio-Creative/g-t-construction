@@ -5,6 +5,10 @@
   background-position: bottom;
   height: 100vh;
   color: $white;
+  .btn-button {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
 
   .container {
     display: flex;
